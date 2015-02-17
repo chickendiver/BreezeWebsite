@@ -1,0 +1,24 @@
+body {
+	background-image: url('Assets/DCM.CB.darkwoodplanks');
+	background-size: 100%;
+	font-family: baskerville; 
+	color: white;
+} 
+
+header {
+	background-image: url('Assets/OWV.CB.grasswithshadows');  /* Would prefer more green. maybe a horizon or something */
+	background-size:100%;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+
+
+
+
+
+/* Perhaps a parallaxing background that starts with the 
+hardwood and the "OWV.CB.grasswithshadows" about the size of 
+a doormat, and then scrolls down to a nice blue sky.
+and in the middle can be a park and horizon, or a house
+or whatever */
