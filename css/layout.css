@@ -8,53 +8,88 @@
 
 /* --------------------------------------- */
 
-/* Table of Contents */
+/* ---------------- Table of Contents ---------------- */
 
 
-/* Nav Styling */
-.band.nav picture img{
-    margin-top: 10px;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-
-/* Band Styling */
-
-.band {
-    background: #343434;
-}
-
+/* ---------------- Nav Styling ---------------- */
 .band.nav {
-    background: #f8f8f8;
+    background: #343434;
     margin:0;
 }
 
 /* Moves the margin for just the specific nav container */
 .band.nav .container {
-    margin:0;
+    margin-bottom:10px;
 }
 
-/* Makes it so the text has no bottom spacing. */
-.band.nav h4 {
-    margin-bottom: 0;
-} 
-
-picture .nav {
-    margin-top: 100px;
+.band.nav picture img,
+.band.nav picture source{
+    margin-top: 10px;
+    vertical-align: middle;
+    float:left;
 }
+
+.list.nav {
+    text-align: center;
+}
+
+.band.nav ul,
+.band.nav ul, li{
+    margin: 0
+}
+
+.band.nav ul {
+    align-content: center; 
+    list-style: none;
+}
+
+.band.nav ul li {
+    display: inline;
+    position: relative;
+}
+
+.band.nav ul li a{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: deepskyblue;
+    margin-top: 10px;
+}
+
+.band.nav h5{
+    align-content: center;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: skyblue;
+}
+
+/* ---------------- Landing Styling ---------------- */
 
 .band.landing {
-    background: #343434;
+    background: #f8f8f8;
 }
 
+.text.container{
+    vertical-align: middle;
+}
 .band.landing h3 {
-    color:white;
-    padding-top: 15%;
+    color:black;
+    vertical-align: center;
+    font-weight: bold;
+    padding-top: 20%;
+    float: left;
     text-align: center;
 }
 .band.landing h4 {
-    color:white;
-    margin-bottom: 15%;
+    color:black;
+    vertical-align: center;
+    margin-bottom: 20%;
+    float: left;
     text-align: center;
 }
 
@@ -62,24 +97,23 @@ picture .nav {
     color:white;
 }
 
-.band.landing .container {
-
-}
-
-.band.landing img {
+.band.landing picture img,
+.band,landing picture source {
     margin-top:10px;
 }
 
-.band.services {
-    background: #f8f8f8;
-}
+/* ---------------- Services Styling ---------------- */
 
-.band.about {
+.band.services {
     background: #343434;
 }
 
-.band.contact {
+.band.about {
     background: #f8f8f8;
+}
+
+.band.contact {
+    background: #343434;
 }
 
 
