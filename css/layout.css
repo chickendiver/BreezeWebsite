@@ -37,8 +37,27 @@
 .band.landing {
     background: #343434;
 }
+	.band.landing h3 {
+	 	color:white;
+	 	padding-top: 15%;
+	 	text-align: center;
+	}
 	.band.landing h4 {
 		color:white;
+		margin-bottom: 15%;
+		text-align: center;
+	}
+
+	.band.landing p {
+		color:white;
+	}
+
+	.band.landing .container {
+
+	}
+
+	.band.landing img {
+		margin-top:10px;
 	}
 
 .band.services {
