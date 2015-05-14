@@ -15,3 +15,27 @@
 
 
 /* Band Styling */
+
+.band {
+    background: #343434;
+}
+
+.band.nav {
+    background: #f8f8f8;
+}
+
+.band.landing {
+    background: #343434;
+}
+
+.band.services {
+    background: #f8f8f8;
+}
+
+.band.about {
+    background: #343434;
+}
+
+.band.contact {
+    background: #f8f8f8;
+}
