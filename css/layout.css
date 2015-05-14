@@ -37,6 +37,9 @@
 .band.landing {
     background: #343434;
 }
+	.band.landing h4 {
+		color:white;
+	}
 
 .band.services {
     background: #f8f8f8;
