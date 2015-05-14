@@ -12,7 +12,11 @@
 
 
 /* Nav Styling */
-
+.band.nav picture img{
+    margin-top: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
 
 /* Band Styling */
 
@@ -24,22 +28,28 @@
     background: #f8f8f8;
     margin:0;
 }
-	/* Moves the margin for just the specific nav container */
-	.band.nav .container {
-    	margin:0;
-    }
 
-    /* Makes it so the text has no bottom spacing. */
-    .band.nav h4 {
-	margin-bottom:0; 
-	} 
+/* Moves the margin for just the specific nav container */
+.band.nav .container {
+    margin:0;
+}
+
+/* Makes it so the text has no bottom spacing. */
+.band.nav h4 {
+    margin-bottom: 0;
+} 
+
+picture .nav {
+    margin-top: 100px;
+}
 
 .band.landing {
     background: #343434;
 }
-	.band.landing h4 {
-		color:white;
-	}
+
+.band.landing h4 {
+    color:white;
+}
 
 .band.services {
     background: #f8f8f8;
