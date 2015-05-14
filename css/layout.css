@@ -13,9 +13,6 @@
 
 /* Nav Styling */
 
-h4.nav{
- margin: 0;
-}
 
 /* Band Styling */
 
@@ -25,7 +22,17 @@ h4.nav{
 
 .band.nav {
     background: #f8f8f8;
+    margin:0;
 }
+	/* Moves the margin for just the specific nav container */
+	.band.nav .container {
+    	margin:0;
+    }
+
+    /* Makes it so the text has no bottom spacing. */
+    .band.nav h4 {
+	margin-bottom:0; 
+	} 
 
 .band.landing {
     background: #343434;
@@ -42,3 +49,10 @@ h4.nav{
 .band.contact {
     background: #f8f8f8;
 }
+
+
+/* Removes the website border that was there */
+body {
+	margin:0;
+}
+
