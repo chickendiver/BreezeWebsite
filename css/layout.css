@@ -8,10 +8,19 @@
 
 /* --------------------------------------- */
 
-/* ---------------- Table of Contents ---------------- */
+/* ---------------- Table of Contents ----------------
+
+1. Nav Styling
+2. Landing Styling
+3. Services Styling
+4. Who We Are Styling
+5. Contact Styling
+6. Misc Body Styling
+
+*/
 
 
-/* ---------------- Nav Styling ---------------- */
+/* ---------------- 1. Nav Styling ---------------- */
 .band.nav {
     background: #343434;
     margin:0;
@@ -65,32 +74,43 @@
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: bold;
-    color: skyblue;
+    color: deepskyblue;
 }
 
-/* ---------------- Landing Styling ---------------- */
+/* ---------------- 2. Landing Styling ---------------- */
 
 .band.landing {
     background: #f8f8f8;
 }
 
-.text.container{
-    vertical-align: middle;
+.text.container {
+    padding-top: 30%;
+    padding-bottom: 20%;
+    vertical-align: center;
+    float: left;
+    text-align: center;
+    width: auto;
 }
 .band.landing h3 {
     color:black;
+    display: block;
     vertical-align: center;
     font-weight: bold;
-    padding-top: 20%;
     float: left;
-    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    padding: 0;
 }
 .band.landing h4 {
     color:black;
-    vertical-align: center;
-    margin-bottom: 20%;
+    display: block;
+    vertical-align:center;
     float: left;
-    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .band.landing p {
@@ -102,15 +122,19 @@
     margin-top:10px;
 }
 
-/* ---------------- Services Styling ---------------- */
+/* ---------------- 3. Services Styling ---------------- */
 
 .band.services {
     background: #343434;
 }
 
+/* ---------------- 4. Who We Are Styling ---------------- */
+
 .band.about {
     background: #f8f8f8;
 }
+
+/* ---------------- 5. Contact Styling ---------------- */
 
 .band.contact {
     background: #343434;
