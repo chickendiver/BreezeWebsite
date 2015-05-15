@@ -180,7 +180,7 @@
 }
 
 .band.about p{
-    color = white;
+    color: #343434;
     text-align: center;
 }
 
@@ -196,6 +196,19 @@
 
 .band.contact {
     background: #343434;
+}
+
+.band.contact h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.band.contact{
+    color: white;
+    text-align: center;
 }
 
 
