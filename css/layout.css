@@ -127,6 +127,45 @@
 .band.services {
     background: #343434;
 }
+.band.services h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.button_group.services{
+   /* text-align: center*/
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.button_group.services a.button.button-primary{
+    vertical-align: middle;
+    position: relative;
+}
+/*
+.button_group.services float.left{
+    float: left;
+    width: 150px;
+}
+
+.button_group.services float.centre{
+    display:inline;
+    width: 150px;
+}
+
+.button_group.services float.right{
+    float:right;
+    width: 150px;
+}
+*/
+
 
 /* ---------------- 4. Who We Are Styling ---------------- */
 
