@@ -55,12 +55,17 @@
 .band.nav ul li {
     display: inline;
     position: relative;
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: deepskyblue;
+    margin-top: 10px;
 }
 
 .band.nav ul li a{
     display: inline-block;
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 20px;
     font-weight: bold;
     text-decoration: none;
     color: deepskyblue;
@@ -92,7 +97,7 @@
     width: auto;
 }
 .band.landing h3 {
-    color:black;
+    color:#343434;
     display: block;
     vertical-align: center;
     font-weight: bold;
@@ -103,7 +108,7 @@
     padding: 0;
 }
 .band.landing h4 {
-    color:black;
+    color:#343434;
     display: block;
     vertical-align:center;
     float: left;
@@ -119,7 +124,8 @@
 
 .band.landing picture img,
 .band,landing picture source {
-    margin-top:10px;
+    margin-top:5%;
+    margin-right: 2%
 }
 
 /* ---------------- 3. Services Styling ---------------- */
@@ -143,28 +149,13 @@
     margin: 0;
     margin-right: auto;
     margin-left:auto;
+    margin-bottom: 30%;
 }
 
 .button_group.services a.button.button-primary{
     vertical-align: middle;
     position: relative;
 }
-/*
-.button_group.services float.left{
-    float: left;
-    width: 150px;
-}
-
-.button_group.services float.centre{
-    display:inline;
-    width: 150px;
-}
-
-.button_group.services float.right{
-    float:right;
-    width: 150px;
-}
-*/
 
 
 /* ---------------- 4. Who We Are Styling ---------------- */
@@ -172,6 +163,34 @@
 .band.about {
     background: #f8f8f8;
 }
+
+.band.about h5{
+    color: #343434;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.band.about h1{
+    color: #343434;
+    text-align: center;
+    font-weight: bold;
+    margin:0;
+}
+
+.band.about p{
+    color = white;
+    text-align: center;
+}
+
+.band.about .bio,picture{
+    text-align: center;
+    vertical-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 
 /* ---------------- 5. Contact Styling ---------------- */
 
