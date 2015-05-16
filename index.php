@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,20 +142,41 @@
           </div>
 
           <div id="contact-form" class="clearfix">
-          <ul id="errors" class="">
-              <li id="info">There were some problems with your form submission:</li>
+
+          <?php
+          //init variables
+          $cf = array();  //contact form
+          $sr = false;    //server response
+
+          if(isset($_SESSION['cf_returndata'])){
+            $cf = $_SESSION['cf_returndata'];
+            $sr = true;
+          }
+          ?>
+
+          <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
+            <li id="info">There were some problems with your form submission:</li>
+            <?php 
+            if(isset($cf['errors']) && count($cf['errors']) > 0) :
+                foreach($cf['errors'] as $error) :
+            ?>
+            <li><?php echo $error ?></li>
+            <?php
+                endforeach;
+            endif;
+            ?>
           </ul>
-          <p id="success">Thanks for your message! We will get back to you ASAP!</p>
+          <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
       
           <form method="post" action="process.php">
                     <label for="name">Name: <span class="required">*</span></label>
-                    <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
+                    <input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required="required" autofocus="autofocus" />
                      
                     <label for="email">Email Address: <span class="required">*</span></label>
-                    <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
+                    <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required="required" />
                      
                     <label for="telephone">Telephone: </label>
-                    <input type="tel" id="telephone" name="telephone" value="" />
+                    <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
                      
                     <label for="contactType">Preffered Mode of Contact: </label>
                     <select id="contactType" name="contactType">
@@ -163,12 +185,13 @@
                     </select>
                      
                     <label for="message">Message: <span class="required">*</span></label>
-                    <textarea id="message" name="message" placeholder="Enter your message here." required="required" data-minlength="20"></textarea>
+                    <textarea id="message" name="message" placeholder="Enter your message here." required= data-minlength="4"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
                      
                     <span id="loading"></span>
                     <input type="submit" value="Submit" id="submit-button" />
                     <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
           </form>
+          <?php unset($_SESSION['cf_returndata']); ?>
           </div>
           </div>
           </div>

@@ -222,6 +222,20 @@
     color:white;
 }
 
+
+/* Hiding/showing error/success messages in form */
+.band.contact #errors #info:before{
+    content: '';
+}
+
+.band.contact #success #errors{
+    display:none;
+}
+
+.band.contact #errors.visible, #success.visible{
+    display:block;
+}
+
 /* Removes the website border that was there */
 body {
 	margin:0;
