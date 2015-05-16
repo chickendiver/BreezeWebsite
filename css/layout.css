@@ -106,6 +106,7 @@
     margin-right: 50px;
     margin-bottom: 0;
     padding: 0;
+    display:block;
 }
 .band.landing h4 {
     color:#343434;
@@ -116,6 +117,7 @@
     margin-right: 50px;
     margin-bottom: 0;
     padding: 0;
+    display:block;
 }
 
 .band.landing p {
@@ -123,7 +125,7 @@
 }
 
 .band.landing picture img,
-.band,landing picture source {
+.band.landing picture source {
     margin-top:5%;
     margin-right: 2%
 }
@@ -159,6 +161,10 @@
 
 
 /* ---------------- 4. Who We Are Styling ---------------- */
+
+.band {
+    margin:0;
+}
 
 .band.about {
     background: #f8f8f8;
@@ -196,6 +202,8 @@
 
 .band.contact {
     background: #343434;
+    color: white;
+    text-align: center;
 }
 
 .band.contact h5{
@@ -203,14 +211,16 @@
     text-align: center;
     font-weight: bold;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 
-.band.contact{
-    color: white;
-    text-align: center;
+.band.contact input, .band.contact textarea {
+    color:black;
 }
 
+.band.contact input#submit-button {
+    color:white;
+}
 
 /* Removes the website border that was there */
 body {
