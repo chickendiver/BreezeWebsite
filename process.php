@@ -46,6 +46,11 @@ if( isset($_POST) ){
         $errors[] = "You have not entered a message";
     }
 
+    elseif(strlen($message) < 4){
+        $formok = false;
+        $errors[] = "Your message must be greater than 4 characters";
+    }
+
     //send email if all is ok
     if($formok){
         $headers = "From: info@breezetech.ca" . "\r\n";

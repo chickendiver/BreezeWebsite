@@ -228,11 +228,11 @@
     content: '';
 }
 
-.band.contact #success #errors{
+.band.contact #success, .band.contact #errors{
     display:none;
 }
 
-.band.contact #errors.visible, #success.visible{
+.band.contact #errors.visible, .band.contact #success.visible{
     display:block;
 }
 
