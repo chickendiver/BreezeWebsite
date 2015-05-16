@@ -3,29 +3,23 @@
 <html lang="en">
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Breeze Technical Services</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/layout.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
@@ -34,8 +28,7 @@
   <!-- Nav bar layout -->
   
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Primary Page Layout -->
   <div class = "band nav">
       <div class="container">
           <div class="row">
@@ -117,7 +110,13 @@
                     <img src="./images/chase_bio.jpg" alt="Breeze Technical Services">
                 </picture>
                 <h1>Chase</h1>
-                <p>Chase's Short Bio</p>
+                <p>Bio:</p>
+                <p>- Sofware Engineer</p>
+                <p>- Ex Apple Genius</p>
+                <p>- Sofware Engineer</p>
+                <p>- Patient</p>
+                <p>- Snowboard instructor</p>  
+
               </div> 
               <div class = "bio" style = "float:right; margin-right:5%; margin-right:5%;">
                 <picture>
@@ -140,58 +139,67 @@
           <div class="twelve columns">
             <h5>Contact Us</h5>
           </div>
+        </div>
 
-          <div id="contact-form" class="clearfix">
+        <div class = "row">
+          <div class="six columns">
 
-          <?php
-          //init variables
-          $cf = array();  //contact form
-          $sr = false;    //server response
+            <h2>No Problem Too Small! </h2>
 
-          if(isset($_SESSION['cf_returndata'])){
-            $cf = $_SESSION['cf_returndata'];
-            $sr = true;
-          }
-          ?>
+          </div>
 
-          <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
-            <li id="info">There were some problems with your form submission:</li>
-            <?php 
-            if(isset($cf['errors']) && count($cf['errors']) > 0) :
-                foreach($cf['errors'] as $error) :
-            ?>
-            <li><?php echo $error ?></li>
+          <div class="six columns">
+            <div id="contact-form">
+
             <?php
-                endforeach;
-            endif;
+            //init variables
+            $cf = array();  //contact form
+            $sr = false;    //server response
+
+            if(isset($_SESSION['cf_returndata'])){
+              $cf = $_SESSION['cf_returndata'];
+              $sr = true;
+            }
             ?>
-          </ul>
-          <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
-      
-          <form method="post" action="process.php">
-                    <label for="name">Name: <span class="required">*</span></label>
-                    <input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required="required" autofocus="autofocus" />
-                     
-                    <label for="email">Email Address: <span class="required">*</span></label>
-                    <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required="required" />
-                     
-                    <label for="telephone">Telephone: </label>
-                    <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
-                     
-                    <label for="contactType">Preffered Mode of Contact: </label>
-                    <select id="contactType" name="contactType">
-                        <option value="phone">Phone</option>
-                        <option value="email">Email</option>
-                    </select>
-                     
-                    <label for="message">Message: <span class="required">*</span></label>
-                    <textarea id="message" name="message" placeholder="Enter your message here." required= data-minlength="4"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
-                     
-                    <span id="loading"></span>
-                    <input type="submit" value="Submit" id="submit-button" />
-                    <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
-          </form>
-          <?php unset($_SESSION['cf_returndata']); ?>
+
+            <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
+              <li id="info">There were some problems with your form submission:</li>
+              <?php 
+              if(isset($cf['errors']) && count($cf['errors']) > 0) :
+                  foreach($cf['errors'] as $error) :
+              ?>
+              <li><?php echo $error ?></li>
+              <?php
+                  endforeach;
+              endif;
+              ?>
+            </ul>
+            <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
+        
+            <form method="post" action="process.php">
+                      <label for="name">Name: <span class="required">*</span></label>
+                      <input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required="required" <?php echo($sr && !$cr['form_ok'] ? 'autofocus="autofocus"' : '')?> />
+                       
+                      <label for="email">Email Address: <span class="required">*</span></label>
+                      <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required="required" />
+                       
+                      <label for="telephone">Telephone: </label>
+                      <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
+                       
+                      <label for="contactType">Preffered Mode of Contact: </label>
+                      <select id="contactType" name="contactType">
+                          <option value="phone">Phone</option>
+                          <option value="email">Email</option>
+                      </select>
+                       
+                      <label for="message">Message: <span class="required">*</span></label>
+                      <textarea id="message" name="message" placeholder="Enter your message here." required= data-minlength="4"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
+                       
+                      <input type="submit" value="Submit" id="submit-button" />
+                      <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+            </form>
+            <?php unset($_SESSION['cf_returndata']); ?>
+            </div>
           </div>
           </div>
           </div>
