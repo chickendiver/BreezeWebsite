@@ -84,13 +84,35 @@
           <div class="twelve columns">
             <h5>Let's Get Started.</h5>
           </div>
-          <div class = "twelve columns">
-            <div class = "button_group services">
-                    <a class="button button-primary" href="#">Setup</a>
-                    <a class="button button-primary" href="#">Lessons</a>
-                    <a class="button button-primary" href="#">Repairs</a>
+        </div>
+        <div class = "row">
+            <div class = "twelve columns">
+                <h3>With our one simple price, it's easy to get what you need.</h3>
             </div>
+        </div>
+        <div class = "row">
+          <div class = "four columns" >
+              <h5>Setups</h6>
+              <p>Some text for setups makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
           </div>
+          <div class = "four columns">
+            <h5>Lessons</h6>
+            <p>Some text for lessons makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+          </div>
+          <div class = "four columns">
+               <h5>Repairs</h6>
+               <p>Some text for repairs makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+          </div>
+          </div>
+        <div class = "row" style = "margin-bottom: 20%;">
+          <div class = "four columns" >
+            <a class="button button-primary" href="#">Learn More</a>
+          </div>
+          <div class = "four columns">
+            <a class="button button-primary" href="#">Learn More</a>
+          </div>
+          <div class = "four columns">
+            <a class="button button-primary" href="#">Learn More</a>
           </div>
         </div> <!-- End Row -->
       </div> <!-- End Container -->

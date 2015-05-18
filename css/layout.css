@@ -142,27 +142,25 @@
     text-align: center;
     font-weight: bold;
     margin-top: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
-.button_group.services{
-   /* text-align: center*/
-    position: relative;
+.band.services h3{
+    color: white;
     text-align: center;
-    width: 100%;
-    margin: 0;
-    margin-right: auto;
-    margin-left:auto;
-    margin-bottom: 30%;
+    font-size: 20px;
 }
 
-.button_group.services a.button.button-primary{
-    vertical-align: middle;
-    position: relative;
+.band.services .row{
+    text-align: center;
+}
+
+.band.services p{
+    color: white;
 }
 
 
-/* ---------------- 4. Who We Are Styling ---------------- */
+/* ---------------- 4. Who We Are Styling ---------------- 
 
 .band {
     margin:0;
