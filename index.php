@@ -29,29 +29,28 @@
   
 
   <!-- Primary Page Layout -->
+    
   <div class = "band nav">
       <div class="container">
           <div class="row">
-            <div class="three columns">
+            <div class="four columns">
                 <picture>
                    <!--<source media="(min-width: 64em)" src="./images/high-res_logo.png">
                    <source media="(min-width: 37.5em)" src="./images/med-res_logo.png">
                    <source src="./images/low-res_logo.png">-->
-                   <img src="./images/logo.png" alt="Breeze Technical Services">
+                   <img src="./images/low-res_logo.png" alt="Breeze Technical Services">
                 </picture>
             </div>
             <div class = "six columns">
                 <div class = "list nav">
                     <ul>
                         <li><a href="#">Services</a></li>
-                        <li>|</li>
                         <li><a href="#">About Us</a></li>
-                        <li>|</li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            <div class = "three columns">
+            <div class "two columns">
                 <h5>(780) 700 1070</h5>            
             </div>
           </div>
