@@ -226,15 +226,19 @@
 }
 
 .band.contact #contact-form{
-    float:right;
+    
 }
 
-.band.contact input, .band.contact textarea {
+.band.contact input, .band.contact textarea, .band.contact select {
     color:black;
+    width:400px;
 }
 
 .band.contact input#submit-button {
     color:white;
+    margin:0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 

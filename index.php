@@ -103,10 +103,12 @@
           <div class= "twelve columns">
             <h5>Who We Are</h5>
           </div>
-          <div class = "twelve columns" style = "text-align:center;">
-              <div class = "bio picture" style = "float:left; margin-left:5%; margin-right:5%;">
+        </div>
+        <div class="row" style = "margin-right:auto; margin-left:auto;">
+          <div class = "six columns" style = "text-align:center;">
+              <div class = "bio picture" style = "padding-left:10px; padding-right:10px;">
                 <picture>
-                    <img src="./images/chase_bio.jpg" alt="Breeze Technical Services">
+                    <img src="./images/chase_bio.jpg" alt="Breeze Technical Services" >
                 </picture>
                 <h1>Chase</h1>
                 <p>Bio:</p>
@@ -117,9 +119,11 @@
                 <p>- Snowboard instructor</p>  
 
               </div> 
-              <div class = "bio" style = "float:right; margin-right:5%; margin-right:5%;">
+            </div>
+            <div class="six columns" style = "text-aligh:center;">
+              <div class = "bio picture" style = "padding-left:10px; padding-right:10px;">
                 <picture>
-                    <img src="./images/bradley_bio.jpg" alt="Breeze Technical Services">
+                    <img src="./images/bradley_bio.jpg" alt="Breeze Technical Services" >
                 </picture>
                   
                   <!-- Don't foget to remove this margin when images are fixed -->
@@ -141,13 +145,7 @@
         </div>
 
         <div class = "row">
-          <div class="six columns">
-
-            <h2>No Problem Too Small! </h2>
-
-          </div>
-
-          <div class="six columns">
+          <div class="twelve columns">
             <div id="contact-form">
 
             <?php
@@ -186,9 +184,9 @@
                       <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
                        
                       <label for="contactType">Preffered Mode of Contact: </label>
-                      <select id="contactType" name="contactType">
-                          <option value="phone">Phone</option>
-                          <option value="email">Email</option>
+                      <select id="contactType" name="contactType" >
+                          <option value="email" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'email') ? "selected='selected'" : '' ?>>Email</option>
+                          <option value="phone" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'phone') ? "selected='selected'" : '' ?>>Phone</option>
                       </select>
                        
                       <label for="message">Message: <span class="required">*</span></label>
