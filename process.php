@@ -73,7 +73,7 @@ if( isset($_POST) ){
             'name' => $name,
             'email' => $email,
             'telephone' => $telephone,
-            'enquiry' => $enquiry,
+            'contactType' => $enquiry,
             'message' => $message
         ),
         'form_ok' => $formok,
