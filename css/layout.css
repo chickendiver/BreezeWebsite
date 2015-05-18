@@ -89,6 +89,7 @@
 
 .band.landing {
     background-image: url(../images/temp_landing_image.jpg);
+    background-repeat: no-repeat;
     height:550px;
     width:100%;
 }
