@@ -31,7 +31,7 @@
   <!-- Primary Page Layout -->
     
   <div class = "band nav">
-      <div class="container">
+      <div class="container" style="margin-bottom:0;">
           <div class="row">
             <div class="four columns">
                 <picture>
@@ -59,22 +59,17 @@
     
     
 
-  <div class = "band landing">
-      <div class="container">
-          <div class = "row">
-            <div class="seven columns">
-              <picture>
-                <img src="images/landing_image.jpg">
-              </picture>
-            </div>
-            <div class="five columns">
+  <div class = "band landing" >
+      <!-- <div class="container" style="margin:0;"> -->
+          <!-- <div class = "row"> -->
+            <div class="twelve columns">
                 <div class = "text container">
                     <h3>Get Comfortable.</h3>
                     <h4>This is going to be a breeze.</h4>
                 </div>
             </div>
-        </div>
-      </div> <!-- End Container -->
+        <!-- </div>
+      </div> <! End Container -->
   </div> <!-- End Band -->
     
     
@@ -183,10 +178,12 @@
                       <label for="telephone">Telephone: </label>
                       <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
                        
-                      <label for="contactType">Preffered Mode of Contact: </label>
+                      <label for="contactType">Preferred Mode of Contact: </label>
                       <select id="contactType" name="contactType" >
                           <option value="email" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'email') ? "selected='selected'" : '' ?>>Email</option>
                           <option value="phone" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'phone') ? "selected='selected'" : '' ?>>Phone</option>
+                          <option value="pigeon" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'pigeon') ? "selected='selected'" : '' ?>>Carrier Pigeon</option>
+                          <option value="telegram" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'telegram') ? "selected='selected'" : '' ?>>Telegram</option>
                       </select>
                        
                       <label for="message">Message: <span class="required">*</span></label>
