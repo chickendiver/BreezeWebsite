@@ -43,6 +43,7 @@
     margin-top: 20px;
     text-align: center;
     float: left;
+    margin-left: 0;
 }
 
 .band.nav ul,
@@ -145,7 +146,7 @@
     color: white;
     text-align: center;
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 5%;
 }
 
