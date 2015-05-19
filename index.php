@@ -1,6 +1,6 @@
 <?php session_start() ?>
 <!DOCTYPE html>
-<html lang="en  ">
+<html lang="en">
 <head>
 
   <meta charset="utf-8">
@@ -90,16 +90,28 @@
           </div>
         <div class = "row">
           <div class = "four columns" >
+            <div class = "setup less">
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
-             <!-- <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> -->
+            </div>
+            <div class = "setup more">
+             <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> 
+            </div>
           </div>
           <div class = "four columns">
-            <p>From basic computer skills, to software like Photoshop and more, our patient and skilled experts will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
-          <!--  <p>Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> -->
+            <div class = "lessons less">
+              <p>From basic computer skills, to software like Photoshop and more, our patient and skilled experts will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
+            </div>
+            <div class = "lessons more">
+            <p>Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            </div>
           </div>
           <div class = "four columns">
+              <div class = "repair less">
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
-              <!-- <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> -->
+              </div>
+              <div class = "repair more">
+                <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+              </div>
           </div>
           </div>
         <div class = "row" style = "margin-bottom: 15%;">
