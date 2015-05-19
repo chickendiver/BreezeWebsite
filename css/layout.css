@@ -89,6 +89,9 @@
 /* ---------------- 2. Landing Styling ---------------- */
 
 .band.landing {
+    /* Image source:
+    http://wallmeta.com/clouds-images-desktop-wallpaper/
+    */
     background-image: url(../images/landing_image_clouds_1.png);
     background-repeat: no-repeat;
     background-size: cover;
