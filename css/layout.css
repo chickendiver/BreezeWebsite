@@ -141,9 +141,10 @@
 }
 
 .band.landing .nav_stripe{
-    background-color: #343434;
+    background-color: rgba(52,52,52,0.5);
     text-align: center;
     background-size: cover;
+    opactity: 0.1;
 }
 .band.landing .container {
     margin-bottom:10px;
@@ -184,7 +185,6 @@
 
 .band.landing ul li a{
     display: inline-block;
-    text-transform: uppercase;
     margin-right: 20px;
     margin-top: 15px;
     font-weight: bold;
