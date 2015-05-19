@@ -25,53 +25,41 @@
 </head>
 <body>
     
-  <!-- Nav bar layout -->
-  
-
-  <!-- Primary Page Layout -->
-    
-  <div class = "band nav">
-      <div class="container" style="margin-bottom:0;">
-          <div class="row">
-            <div class="four columns">
-                <picture>
-                   <!--<source media="(min-width: 64em)" src="./images/high-res_logo.png">
-                   <source media="(min-width: 37.5em)" src="./images/med-res_logo.png">
-                   <source src="./images/low-res_logo.png">-->
-                   <img src="./images/low-res_logo.png" alt="Breeze Technical Services">
-                </picture>
-            </div>
-            <div class = "six columns">
-                <div class = "list nav">
-                    <ul>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+  <div class = "band landing">
+      <div class = "nav_stripe">
+          <div class="container" style="margin-bottom:0;">
+              <div class="row">
+                <div class="four columns">
+                    <picture>
+                       <!--<source media="(min-width: 64em)" src="./images/high-res_logo.png">
+                       <source media="(min-width: 37.5em)" src="./images/med-res_logo.png">
+                       <source src="./images/low-res_logo.png">-->
+                       <img src="./images/low-res_logo.png" alt="Breeze Technical Services">
+                    </picture>
                 </div>
-            </div>
-            <div class "two columns">
-                <h5>(780) 700 1070</h5>            
-            </div>
-          </div>
-      </div> <!-- End Container -->
-  </div> <!-- End Band -->
-    
-    
-
-  <div class = "band landing" >
-      <!-- <div class="container" style="margin:0;"> -->
-          <!-- <div class = "row"> -->
-            <div class="twelve columns">
-                <div class = "text container">
-                    <h3>Get Comfortable.</h3>
-                    <h4>This is going to be a breeze.</h4>
+                <div class = "six columns">
+                    <div class = "list nav">
+                        <ul>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        <!-- </div>
-      </div> <! End Container -->
+                <div class "two columns">
+                    <h5>(780) 700 1070</h5>            
+                </div>
+              </div>
+          </div> <!-- End Container -->
+      </div>
+    <div class="twelve columns">
+        <div class = "text container">
+            <h3>Get Comfortable.</h3>
+            <h4>This is going to be a breeze.</h4>
+        </div>
+    </div>
+      <!-- </div> <! End Container -->
   </div> <!-- End Band -->
-    
     
   <div class = "band services">
       <div class="container">
@@ -82,26 +70,41 @@
         </div>
         <div class = "row">
             <div class = "twelve columns">
-                <h3>With our one simple price, it's easy to get what you need.</h3>
+                <h3>With our simple pricing, it's easy to get what you need.</h3>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "twelve columns">
+                <h3>Choose any of these options for only $60:</h3>
             </div>
         </div>
         <div class = "row">
           <div class = "four columns" >
-              <h5>Setups</h6>
-              <p>Some text for setups makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+              <h5>Setup</h6>
           </div>
           <div class = "four columns">
             <h5>Lessons</h6>
-            <p>Some text for lessons makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
           </div>
           <div class = "four columns">
-               <h5>Repairs</h6>
-               <p>Some text for repairs makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+               <h5>Repair</h6>
           </div>
-          </div>
-        <div class = "row" style = "margin-bottom: 20%;">
+        <div class = "row">
           <div class = "four columns" >
-            <a class="button button-primary" href="#openModal">Learn More</a>
+              <p>Some text for setups makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+              <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+          </div>
+          <div class = "four columns">
+            <p>Some text for lessons makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+            <p>Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+          </div>
+          <div class = "four columns">
+               <p>Some text for repairs makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+               <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+          </div>
+          </div>
+        <div class = "row" style = "margin-bottom: 15%;">
+          <div class = "four columns" >
+            <a class="button button-primary" href="#">Show More</a>
           </div>
 
           <!-- Modal dialgo box test -->
@@ -118,10 +121,10 @@
           <!--                       -->
 
           <div class = "four columns">
-            <a class="button button-primary" href="#">Learn More</a>
+            <a class="button button-primary" href="#">Show More</a>
           </div>
           <div class = "four columns">
-            <a class="button button-primary" href="#">Learn More</a>
+            <a class="button button-primary" href="#">Show More</a>
           </div>
         </div> <!-- End Row -->
       </div> <!-- End Container -->
