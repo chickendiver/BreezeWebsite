@@ -37,7 +37,7 @@
                        <img src="./images/low-res_logo.png" alt="Breeze Technical Services">
                     </picture>
                 </div>
-                <div class = "six columns">
+                <div class = "five columns">
                     <div class = "list nav">
                         <ul>
                             <li><a href="#">Services</a></li>
@@ -46,7 +46,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class "two columns">
+                <div class = "three columns">
                     <h5>(780) 700 1070</h5>            
                 </div>
               </div>
@@ -160,27 +160,25 @@
           <div class = "six columns" style = "text-align:center;">
               <div class = "bio picture" style = "padding-left:10px; padding-right:10px;">
                 <picture>
-                    <img src="./images/chase_bio.jpg" alt="Breeze Technical Services" >
+                    <img src="./images/chase_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
-                <h1>Chase</h1>
+                <h3>Chase</h3>
                 <p>Bio:</p>
                 <p>- Sofware Engineer</p>
                 <p>- Ex Apple Genius</p>
                 <p>- Sofware Engineer</p>
                 <p>- Patient</p>
-                <p>- Snowboard instructor</p>  
+                <p class = "last">- Snowboard instructor</p>  
 
               </div> 
             </div>
             <div class="six columns" style = "text-aligh:center;">
               <div class = "bio picture" style = "padding-left:10px; padding-right:10px;">
                 <picture>
-                    <img src="./images/bradley_bio.jpg" alt="Breeze Technical Services" >
+                    <img src="./images/bradley_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
-                  
-                  <!-- Don't foget to remove this margin when images are fixed -->
-                <h1 style = "margin-top: 90px;">Bradley</h1>
-                <p>Bradley's Short Bio</p>
+                <h3>Bradley</h3>
+                <p class = "last">Bradley's Short Bio</p>
               </div>
           </div>
         </div> <!-- End Row -->

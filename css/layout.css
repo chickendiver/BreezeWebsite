@@ -89,23 +89,22 @@
 /* ---------------- 2. Landing Styling ---------------- */
 
 .band.landing {
-    background-image: url(../images/temp_landing_image.jpg);
+    background-image: url(../images/landing_image_clouds_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height:550px;
+    height:675px;
     width:100%;
 }
 
 .band.landing .text.container {
     margin-top: 7%;
-    margin-left: 65%;
+    margin-right: 50%;
     margin-bottom: 20%;
     text-align: center;
     width: 500px;
     
 }
 .band.landing h3 {
-    color:#343434;
     color:white;
     display: block;
     vertical-align: center;
@@ -277,15 +276,16 @@
     color: #343434;
     text-align: center;
     font-weight: bold;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 15%;
 }
 
-.band.about h1{
+.band.about h3{
     color: #343434;
     text-align: center;
     font-weight: bold;
     margin:0;
+    margin-top: 5%;
+    margin-bottom:5%;
 }
 
 .band.about p{
@@ -294,11 +294,16 @@
     text-align: center;
 }
 
+.band.about p.last{
+    margin-bottom: 15%;   
+}
+
 .band.about .bio,picture{
     text-align: center;
     vertical-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:5%
 }
 
 /* ---------------- 5. Contact Styling ---------------- */
