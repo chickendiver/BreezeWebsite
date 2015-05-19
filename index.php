@@ -19,7 +19,12 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/layout.css">
 
-  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
+  <script src="jqueryFunctions.js"></script>
+
+
+
+
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
@@ -90,10 +95,10 @@
           </div>
         <div class = "row">
           <div class = "four columns" >
-            <div class = "setup less">
+            <div id = "setupLess">
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
             </div>
-            <div class = "setup more">
+            <div id = "setupMore" style="display:none;">
              <p>Our gurus set-up:
 -	Printers
 -	Mobile devices (iPads, iPhones, and other tablets and smartphones)
@@ -106,10 +111,10 @@
             </div>
           </div>
           <div class = "four columns">
-            <div class = "lessons less">
+            <div id = "lessonLess">
               <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
             </div>
-            <div class = "lessons more">
+            <div id = "lessonMore" style="display:none;">
             <p>Our gurus can teach you how to:
 -	Transfer data from cameras, phones, and tablets, to your computer
 -	Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
@@ -121,10 +126,10 @@
             </div>
           </div>
           <div class = "four columns">
-              <div class = "repair less">
+              <div id = "repairLess">
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
               </div>
-              <div class = "repair more">
+              <div id = "repairMore" style="display:none;">
                 <p>Our gurus will take care of:
 -	Speeding up slow computers
 -	Recovering/replacing broken or damaged hard-drives
@@ -135,20 +140,19 @@
           </div>
         <div class = "row" style = "margin-bottom: 15%;">
           <div class = "four columns" >
-            <a class="button button-primary" href="#">Show More</a>
+            <button  id="setupBtn">Show More</button>
           </div>
 
           <div class = "four columns">
-            <a class="button button-primary" href="#">Show More</a>
+            <button  id="lessonBtn">Show More</button>
           </div>
           <div class = "four columns">
-            <a class="button button-primary" href="#">Show More</a>
+            <button  id="repairBtn">Show More</button>
           </div>
         </div> <!-- End Row -->
       </div> <!-- End Container -->
   </div> <!-- End Band -->
-    
-    
+
   <div class = "band about">
       <div class="container">
         <div class="row">

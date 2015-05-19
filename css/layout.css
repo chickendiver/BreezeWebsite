@@ -235,30 +235,8 @@
     color: white;
 }
 
-
-/* ---------- Services "learn more" button magic ---------- */
-.band.services div.setup.less{
-    display:block;
-}
-
-.band.services div.setup.more{
-    display:none;
-}
-
-.band.services div.lessons.less{
-    display:block;
-}
-
-.band.services div.lessons.more{
-    display:none;
-}
-
-.band.services div.repair.less{
-    display:block;
-}
-
-.band.services div.repair.more{
-    display:none;
+button:hover {
+    color:white;
 }
 
 
