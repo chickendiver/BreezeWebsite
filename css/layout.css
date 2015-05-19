@@ -236,6 +236,21 @@
     color: white;
 }
 
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
 
 /* ---------------- 4. Who We Are Styling ---------------- */
 
@@ -264,6 +279,7 @@
 
 .band.about p{
     color: #343434;
+    margin:0;
     text-align: center;
 }
 
@@ -273,11 +289,6 @@
     margin-left: 3%;
     margin-right: 3%;
 }
-
-.band.about p{
-    margin:0;
-}
-
 
 /* ---------------- 5. Contact Styling ---------------- */
 

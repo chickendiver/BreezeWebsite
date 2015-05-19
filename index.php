@@ -106,6 +106,7 @@
           <div class = "four columns" >
             <a class="button button-primary" href="#">Show More</a>
           </div>
+
           <div class = "four columns">
             <a class="button button-primary" href="#">Show More</a>
           </div>
@@ -201,7 +202,7 @@
                       <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required="required" />
                        
                       <label for="telephone">Telephone: </label>
-                      <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
+                      <input type="tel" id="telephone" name="telephone" placeholder="(780) 444 4444" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
                        
                       <label for="contactType">Preferred Mode of Contact: </label>
                       <select id="contactType" name="contactType" >
