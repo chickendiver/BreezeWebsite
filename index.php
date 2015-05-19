@@ -90,16 +90,16 @@
           </div>
         <div class = "row">
           <div class = "four columns" >
-              <p>Some text for setups makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
-              <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+              <p class="setup less">Some text for setups makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+              <p class="setup more">Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
           </div>
           <div class = "four columns">
-            <p>Some text for lessons makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
-            <p>Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p class="lessons less">Some text for lessons makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+            <p class="lessons more">Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
           </div>
           <div class = "four columns">
-               <p>Some text for repairs makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
-               <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p class="repairs less">Some text for repairs makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
+            <p class="repairs more">Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
           </div>
           </div>
         <div class = "row" style = "margin-bottom: 15%;">
