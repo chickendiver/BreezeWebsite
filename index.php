@@ -45,9 +45,9 @@
                 <div class = "five columns">
                     <div class = "list nav">
                         <ul>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
       <!-- </div> <! End Container -->
   </div> <!-- End Band -->
     
-  <div class = "band services">
+  <div class = "band services" id="services">
       <div class="container">
         <div class="row">
           <div class="twelve columns">
@@ -153,7 +153,7 @@
       </div> <!-- End Container -->
   </div> <!-- End Band -->
 
-  <div class = "band about">
+  <div class = "band about" id="about">
       <div class="container">
         <div class="row">
           <div class= "twelve columns">
@@ -190,7 +190,7 @@
   </div> <!-- End Band -->
     
     
-  <div class = "band contact">
+  <div class = "band contact" id="contact">
       <div class="container">
         <div class="row">
           <div class="twelve columns">
