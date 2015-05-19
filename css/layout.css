@@ -20,71 +20,12 @@
 */
 
 
-/* ---------------- 1. Nav Styling ---------------- 
-.band.nav {
-    background: #343434;
-    margin:0;
-    opacity: 2;
-}
 
-/* Moves the margin for just the specific nav container 
-.band.nav .container {
-    margin-bottom:10px;
-}
 
-.band.nav picture img,
-.band.nav picture source{
-    margin-top: 25px;
-    margin-bottom: 20px;
-    vertical-align: middle;
-    float:left;
-}
+/* ---------- 1. Remove Nav on window resize ---------- */
 
-.list.nav {
-    margin-top: 25px;
-    text-align: center;
-    float: left;
-    margin-left: 0;
-}
 
-.band.nav ul,
-.band.nav ul, li{
-    margin: 0
-}
 
-.band.nav ul {
-    align-content: center; 
-    list-style: none;
-}
-
-.band.nav ul li {
-    display: inline;
-    position: relative;
-    margin-right: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.band.nav ul li a{
-    display: inline-block;
-    text-transform: uppercase;
-    margin-right: 20px;
-    margin-top: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.band.nav h5{
-    align-content: center;
-    float: right;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-}*/
 
 /* ---------------- 2. Landing Styling ---------------- */
 

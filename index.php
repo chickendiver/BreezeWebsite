@@ -39,7 +39,7 @@
                        <!--<source media="(min-width: 64em)" src="./images/high-res_logo.png">
                        <source media="(min-width: 37.5em)" src="./images/med-res_logo.png">
                        <source src="./images/low-res_logo.png">-->
-                       <img src="./images/low-res_logo.png" alt="Breeze Technical Services">
+                       <img src="./images/low-res_logo.png" alt="Breeze Technical Services" id="breezeLogo">
                     </picture>
                 </div>
                 <div class = "five columns">

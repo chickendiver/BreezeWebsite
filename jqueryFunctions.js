@@ -1,15 +1,14 @@
-//Button clicks in servicies band
-
+//Button clicks in servicies band ----------
 $(function(){
 	$("#setupBtn").click(function(){
         if($("#setupLess").css("display")!='none') {
         	$("#setupMore").show();
         	$("#setupLess").hide();
-        	//$(this).html("Show Less");
+        	$(this).html("Show Less");
         } else if ($("#setupMore").css("display")!="none"){
         	$("#setupLess").show();
         	$("#setupMore").hide();
-        	//$(this).html("Show More");
+        	$(this).html("Show More");
         } 
     });
 });
@@ -43,4 +42,21 @@ $(function(){
         	$(this).html("Show More");
         } 
     });
+});
+
+// ---------------- window resize code. --------------------
+
+$(function(){
+	var $window = $(window),
+	$navItems = $(".list.nav"),
+	$logoImage = $("#breezeLogo");
+
+	$window.resize(function(){
+		if ($window.width()<1275) {
+			$navItems.hide();
+			$logoImage.css("margin-right", "500px");
+		}else{
+			$navItems.show();
+		}
+	}).trigger('resize');
 });
