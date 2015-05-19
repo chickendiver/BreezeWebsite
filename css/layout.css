@@ -13,9 +13,10 @@
 1. Nav Styling
 2. Landing Styling
 3. Services Styling
-4. Who We Are Styling
-5. Contact Styling
-6. Misc Body Styling
+4. User Testimonies
+5. Who We Are Styling
+6. Contact Styling
+7. Misc Body Styling
 
 */
 
@@ -183,8 +184,24 @@ button:hover {
     color:white;
 }
 
+/* ---------------- 4. User Testimonies ------------------ */
+.band.testimonies{
+    background-color: #00BFFF
+}
 
-/* ---------------- 4. Who We Are Styling ---------------- */
+.band.testimonies h5 {
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.band.testimonies .slideshow.container {
+    margin-bottom: 20%;
+}
+
+
+
+/* ---------------- 5. Who We Are Styling ---------------- */
 
 .band {
     margin:0;
@@ -228,7 +245,7 @@ button:hover {
     margin-top:5%
 }
 
-/* ---------------- 5. Contact Styling ---------------- */
+/* ---------------- 6. Contact Styling ---------------- */
 
 .band.contact {
     background: #343434;

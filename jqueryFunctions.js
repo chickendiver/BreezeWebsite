@@ -60,3 +60,21 @@ $(function(){
 		}
 	}).trigger('resize');
 });
+
+
+// -------------- Testimonials Slideshow ---------------------
+$(function(){
+    var currentIndex = 0;
+    var items = $(".band.testimonies .slideshow.container div");
+    var itemAmt = items.length;
+
+    $("#slideshowNext").click(function(){
+        var item = $(".band.testimonies .slideshow.container div").eq(currentIndex);
+        items.hide();
+        currentIndex += 1;
+        item = $(".band.testimonies .slideshow.container div").eq($currentIndex);
+        item.show();
+    });
+
+});
+

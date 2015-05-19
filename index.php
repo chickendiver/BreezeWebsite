@@ -154,6 +154,36 @@
       </div> <!-- End Container -->
   </div> <!-- End Band -->
 
+  <div class = "band testimonies" id = "testimonies">
+    <div class = "container">
+      <div class = "row">
+        <div class = "twelve columns">
+          <h5>Testimonies</h5>    
+        </div> <!-- End Columns -->
+      </div> <!-- End Row -->
+      <div class = "row">
+        <div class = "slideshow container">
+          <div> 
+            <h5 style="display:inline;">Text 1</h5>
+          </div>
+          <div> 
+            <h5 style="display:none;">Text 2</h5>
+          </div>
+          <div> 
+            <h5 style="display:none;">Text 3</h5>
+          </div>
+          <div> 
+            <h5 style="display:none;">Text 4</h5>
+          </div>
+
+        </div> <!-- End Slideshow container -->
+      </div> <!-- End Row -->
+
+      <button id="slideshowNext">Next</button>
+
+    </div> <!-- End Container -->
+  </div> <!-- End Band -->
+
   <div class = "band about" id="about">
       <div class="container">
         <div class="row">
