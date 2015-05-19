@@ -101,8 +101,22 @@
           </div>
         <div class = "row" style = "margin-bottom: 20%;">
           <div class = "four columns" >
-            <a class="button button-primary" href="#">Learn More</a>
+            <a class="button button-primary" href="#openModal">Learn More</a>
           </div>
+
+          <!-- Modal dialgo box test -->
+
+          <div id="openModal" class="modalDialog">
+            <div>
+              <a href="#close" title="Close" class="close">X</a>
+              <h2>Modal Box</h2>
+              <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+              <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+            </div>
+          </div>
+
+          <!--                       -->
+
           <div class = "four columns">
             <a class="button button-primary" href="#">Learn More</a>
           </div>
@@ -198,7 +212,7 @@
                       <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required="required" />
                        
                       <label for="telephone">Telephone: </label>
-                      <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
+                      <input type="tel" id="telephone" name="telephone" placeholder="(780) 444 4444" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
                        
                       <label for="contactType">Preferred Mode of Contact: </label>
                       <select id="contactType" name="contactType" >
