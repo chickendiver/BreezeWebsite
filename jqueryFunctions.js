@@ -5,21 +5,15 @@ $(function(){
         if($("#setupLess").css("display")!='none') {
         	$("#setupMore").show();
         	$("#setupLess").hide();
-        	$(this).html("Show Less");
+        	//$(this).html("Show Less");
         } else if ($("#setupMore").css("display")!="none"){
         	$("#setupLess").show();
         	$("#setupMore").hide();
-        	$(this).html("Show More");
+        	//$(this).html("Show More");
         } 
     });
 });
 
-
-$(function(){
-	$("button").mouseup(function(){
-		$(this).blur();
-	});
-});
 
 $(function(){
 	$("#lessonBtn").click(function(){
