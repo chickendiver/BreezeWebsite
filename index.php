@@ -86,20 +86,20 @@
             <h5>Lessons</h6>
           </div>
           <div class = "four columns">
-               <h5>Repair</h6>
+               <h5>Repairs and Tune-Ups</h6>
           </div>
         <div class = "row">
           <div class = "four columns" >
-              <p class="setup less">Some text for setups makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
-              <p class="setup more">Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+              <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
+             <!-- <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> -->
           </div>
           <div class = "four columns">
-            <p class="lessons less">Some text for lessons makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
-            <p class="lessons more">Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p>From basic computer skills, to software like Photoshop and more, our patient and skilled experts will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
+          <!--  <p>Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> -->
           </div>
           <div class = "four columns">
-            <p class="repairs less">Some text for repairs makes our business look very fancy and professional, and that's the sort of thing we want our customers thinking we are.</p>
-            <p class="repairs more">Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+               <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
+              <!-- <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> -->
           </div>
           </div>
         <div class = "row" style = "margin-bottom: 15%;">
