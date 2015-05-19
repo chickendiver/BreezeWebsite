@@ -236,8 +236,7 @@
     color: white;
 }
 
-
-/* ---------- Services "learn more" button magic ---------- */
+/* ---------- Services "learn more" button magic ---------- 
 .band.services div.setup.less{
     display:block;
 }
