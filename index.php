@@ -54,7 +54,7 @@
       </div>
     <div class="twelve columns">
         <div class = "text container">
-            <h3>Get Comfortable.</h3>
+            <h3>Get Comfortable</h3>
             <h4>This is going to be a breeze.</h4>
         </div>
     </div>
@@ -94,15 +94,30 @@
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
             </div>
             <div class = "setup more">
-             <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p> 
+             <p>Our gurus set-up:
+-	Printers
+-	Mobile devices (iPads, iPhones, and other tablets and smartphones)
+-	Home automation systems
+-	New computers
+-	Data transfers from your old devices to your new ones
+
+                 Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.
+</p> 
             </div>
           </div>
           <div class = "four columns">
             <div class = "lessons less">
-              <p>From basic computer skills, to software like Photoshop and more, our patient and skilled experts will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
+              <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
             </div>
             <div class = "lessons more">
-            <p>Some text that describes our lessons in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p>Our gurus can teach you how to:
+-	Transfer data from cameras, phones, and tablets, to your computer
+-	Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
+-	Edit your photos and videos using software like Adobe Photoshop, Adobe Premier, iPhoto, and iMovie
+-	Navigate your computer’s basic functionalities with ease
+-   Use tools like email and web browsing
+                
+                Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.</p>
             </div>
           </div>
           <div class = "four columns">
@@ -110,7 +125,11 @@
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
               </div>
               <div class = "repair more">
-                <p>Some text that describes our setups in detail blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+                <p>Our gurus will take care of:
+-	Speeding up slow computers
+-	Recovering/replacing broken or damaged hard-drives
+-	Virus removal (and anti-virus installation)
+</p>
               </div>
           </div>
           </div>
