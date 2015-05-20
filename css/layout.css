@@ -180,6 +180,10 @@
     color: white;
 }
 
+.band.services button{
+    color:white;
+}
+
 button:hover {
     color:white;
 }
