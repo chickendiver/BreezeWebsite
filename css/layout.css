@@ -74,6 +74,10 @@
     display:block;
 }
 
+#phoneNumber{
+    float: right;
+}
+
 .band.landing p {
     color:white;
 }

@@ -51,9 +51,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class = "three columns">
-                    <h5>(780) 700 1070</h5>            
-                </div>
+                <!-- <div class = "three columns"> -->
+                    <h5 id="phoneNumber">(780) 700 1070</h5>            
+                <!-- </div> -->
               </div>
           </div> <!-- End Container -->
       </div>
@@ -164,22 +164,26 @@
       <div class = "row">
         <div class = "slideshow container">
           <div> 
-            <h5 style="display:inline;">Text 1</h5>
+            <h5>Text 1</h5>
           </div>
           <div> 
-            <h5 style="display:none;">Text 2</h5>
+            <h5>Text 2</h5>
           </div>
           <div> 
-            <h5 style="display:none;">Text 3</h5>
+            <h5>Text 3</h5>
           </div>
           <div> 
-            <h5 style="display:none;">Text 4</h5>
+            <h5>Text 4</h5>
           </div>
 
         </div> <!-- End Slideshow container -->
       </div> <!-- End Row -->
 
-      <button id="slideshowNext">Next</button>
+      <button id="slideshowPrev" style="inline" >Prev</button>
+      <button id="slideshowNext" style="inline" >Next</button>
+      <button id="slideOff" style="inline" >Slide</button>
+
+      <div id="slideTest" style="display: inline;">Test </div>
 
     </div> <!-- End Container -->
   </div> <!-- End Band -->
