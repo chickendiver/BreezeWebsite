@@ -181,11 +181,15 @@
 }
 
 .band.services button{
-    color:white;
+    color:#343434;
+    background: #33C3F0;
+    border-color: #33C3F0;
 }
 
 button:hover {
-    color:white;
+    color:#33C3F0;
+    background:white;
+    border-color: white;
 }
 
 /* ---------------- 4. User Testimonies ------------------ */
