@@ -98,7 +98,7 @@
             <div id = "setupLess">
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
             </div>
-            <div id = "setupMore" style="display:none;">
+            <div id = "setupMore" style="display:none;text-align:justify;">
                 <p><br>Our gurus set-up:
 <br><br>-	Printers
 <br>-	Mobile devices (iPads, iPhones, and other tablets and smartphones)
@@ -114,7 +114,7 @@
             <div id = "lessonLess">
               <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
             </div>
-            <div id = "lessonMore" style="display:none;">
+            <div id = "lessonMore" style="display:none;text-align:justify;">
             <p><br>Our gurus can teach you how to:
 <br><br>-	Transfer data from cameras, phones, and tablets, to your computer
 <br>-	Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
@@ -129,7 +129,7 @@
               <div id = "repairLess">
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
               </div>
-              <div id = "repairMore" style="display:none;">
+              <div id = "repairMore" style="display:none;text-align:justify;">
                 <p><br>Our gurus will take care of:
 <br><br>-	Speeding up slow computers
 <br>-	Recovering/replacing broken or damaged hard-drives
@@ -202,12 +202,7 @@
                     <img src="./images/chase_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
                 <h3>Chase</h3>
-                <p>Bio:</p>
-                <p>- Sofware Engineer</p>
-                <p>- Ex Apple Genius</p>
-                <p>- Sofware Engineer</p>
-                <p>- Patient</p>
-                <p class = "last">- Snowboard instructor</p>  
+                <p class = "last" style = "text-align:justify;">Chase will be going into his fourth year of his Bachelor of Science, with a specialization in Computing Science. To pay for school, Chase has worked various jobs building, servicing, and programming computers, and has earned his Apple Certified Mac Technician certificate doing so. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. <br><br>In his spare time, Chase enjoys teaching snowboarding, reading, and making sure Bradley doesn’t starve.</p>  
 
               </div> 
             </div>
@@ -217,7 +212,9 @@
                     <img src="./images/bradley_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
                 <h3>Bradley</h3>
-                <p class = "last">Bradley's Short Bio</p>
+                <p class = "last" style = "text-align:justify;">
+Bradley recently graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. During his time as a student, he paid for school by taking jobs as tech support, a camera salesman, photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help people from all walks of life truly feel comfortable with their technology. <br><br>In his spare time, Bradley enjoys rock climbing, building robots, and eating his all of Chase's food.
+</p>
               </div>
           </div>
         </div> <!-- End Row -->
