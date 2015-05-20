@@ -198,12 +198,7 @@
                     <img src="./images/chase_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
                 <h3>Chase</h3>
-                <p>Bio:</p>
-                <p>- Sofware Engineer</p>
-                <p>- Ex Apple Genius</p>
-                <p>- Sofware Engineer</p>
-                <p>- Patient</p>
-                <p class = "last">- Snowboard instructor</p>  
+                <p class = "last" style = "text-align:justify;">Chase will be going into his fourth year of his Bachelor of Science, with a specialization in Computing Science. To pay for school, Chase has worked various jobs building, servicing, and programming computers, and has earned his Apple Certified Mac Technician certificate doing so. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. <br><br>In his spare time, Chase enjoys teaching snowboarding, reading, and making sure Bradley doesn’t starve.</p>  
 
               </div> 
             </div>
@@ -213,7 +208,9 @@
                     <img src="./images/bradley_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
                 <h3>Bradley</h3>
-                <p class = "last">Bradley's Short Bio</p>
+                <p class = "last" style = "text-align:justify;">
+Bradley recently graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. During his time as a student, he paid for school by taking jobs as tech support, a camera salesman, photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help people from all walks of life truly feel comfortable with their technology. <br><br>In his spare time, Bradley enjoys rock climbing, building robots, and eating his all of Chase's food.
+</p>
               </div>
           </div>
         </div> <!-- End Row -->
