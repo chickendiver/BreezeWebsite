@@ -47,16 +47,19 @@ $(function(){
 // ---------------- window resize code. --------------------
 
 $(function(){
-	var $window = $(window),
-	$navItems = $(".list.nav"),
-	$logoImage = $("#breezeLogo");
+	var wind = $(window),
+	navItems = $(".list.nav"),
+	logoImage = $("#breezeLogo"),
+    phoneNumber = $("#phoneNumber");
 
-	$window.resize(function(){
-		if ($window.width()<1275) {
-			$navItems.hide();
-			$logoImage.css("margin-right", "500px");
+
+	wind.resize(function(){
+		if (wind.width()<1275) {
+		  navItems.hide();
+		  //logoImage.css("margin-right", "500px");
+          //phoneNumber.css("margin-left", "200px");
 		}else{
-			$navItems.show();
+		  navItems.show();
 		}
 	}).trigger('resize');
 });
@@ -99,7 +102,7 @@ $(function(){
     $("#slideOff").click(function(){
         item=items.eq(currentIndex);
         $('#slideTest').animate({
-            left: '1000px',       //this isnt working but opacity
+            marginLeft: '500px',       //this isnt working but opacity
             opacity: '0.5'
         });       
     });

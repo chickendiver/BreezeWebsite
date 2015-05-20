@@ -51,9 +51,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class = "three columns">
-                    <h5>(780) 700 1070</h5>            
-                </div>
+                <!-- <div class = "three columns"> -->
+                    <h5 id="phoneNumber">(780) 700 1070</h5>            
+                <!-- </div> -->
               </div>
           </div> <!-- End Container -->
       </div>
