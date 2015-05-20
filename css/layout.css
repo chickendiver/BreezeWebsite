@@ -45,10 +45,13 @@
     margin-top: 7%;
     margin-right: 50%;
     margin-bottom: 20%;
+    margin-left:22.5%;
     text-align: center;
     width: 500px;
     
 }
+
+
 .band.landing h3 {
     color:white;
     display: block;
@@ -154,6 +157,34 @@
     font-size: 25px;
     font-weight: bold;
     color: white;
+}
+
+@media screen and (max-width: 549px) {
+    .band.landing .text.container {
+    margin-top: 7%;
+    margin-bottom: 20%;
+    margin-left:auto;
+    margin-right:auto; 
+    text-align: center;
+    width: auto;
+    }    
+
+    .band.landing picture img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .band.landing h5{
+        display:block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    .band.landing.five.columns{
+        display:none;
+    }
 }
 
 /* ---------------- 3. Services Styling ---------------- */
@@ -288,7 +319,14 @@ button:hover {
 
 .band.contact input, .band.contact textarea, .band.contact select {
     color:black;
-    width:400px;
+    width:50%;
+}
+
+@media screen and (max-width: 400px) {
+    .band.contact input, .band.contact textarea, .band.contact select {
+    color:black;
+    width:75%;
+    }
 }
 
 .band.contact input#submit-button {
