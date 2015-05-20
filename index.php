@@ -33,16 +33,15 @@
   <div class = "band landing">
       <div class = "nav_stripe">
           <div class="container" style="margin-bottom:0;">
-              <div class="row">
-                <div class="four columns">
+              
                     <picture>
                        <!--<source media="(min-width: 64em)" src="./images/high-res_logo.png">
                        <source media="(min-width: 37.5em)" src="./images/med-res_logo.png">
                        <source src="./images/low-res_logo.png">-->
                        <img src="./images/low-res_logo.png" alt="Breeze Technical Services" id="breezeLogo">
                     </picture>
-                </div>
-                <div class = "five columns">
+                
+                
                     <div class = "list nav">
                         <ul>
                             <li><a href="#services">Services</a></li>
@@ -50,11 +49,11 @@
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                </div>
+                
                 <!-- <div class = "three columns"> -->
                     <h5 id="phoneNumber">(780) 700 1070</h5>            
                 <!-- </div> -->
-              </div>
+              
           </div> <!-- End Container -->
       </div>
     <div class="twelve columns">
