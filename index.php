@@ -99,7 +99,7 @@
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
             </div>
             <div id = "setupMore" style="display:none;text-align:justify;">
-                <p><br>Our gurus set-up:
+                <p>Our gurus set-up:
 <br><br>-	Printers
 <br>-	Mobile devices (iPads, iPhones, and other tablets and smartphones)
 <br>-	Home automation systems
@@ -115,7 +115,7 @@
               <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
             </div>
             <div id = "lessonMore" style="display:none;text-align:justify;">
-            <p><br>Our gurus can teach you how to:
+            <p>Our gurus can teach you how to:
 <br><br>-	Transfer data from cameras, phones, and tablets, to your computer
 <br>-	Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
 <br>-	Edit your photos and videos using software like Adobe Photoshop, Adobe Premier, iPhoto, and iMovie
@@ -130,7 +130,7 @@
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
               </div>
               <div id = "repairMore" style="display:none;text-align:justify;">
-                <p><br>Our gurus will take care of:
+                <p>Our gurus will take care of:
 <br><br>-	Speeding up slow computers
 <br>-	Recovering/replacing broken or damaged hard-drives
 <br>-	Virus removal (and anti-virus installation)
