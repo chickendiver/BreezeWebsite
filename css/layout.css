@@ -295,7 +295,7 @@ button:hover {
 /* ---------------- 6. Contact Styling ---------------- */
 
 .band.contact {
-    /*background: #343434;*/
+    background: #343434;
     color: white;
     text-align: center;
     background-image: url(../images/black_bg_1.png);
