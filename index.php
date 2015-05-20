@@ -63,9 +63,8 @@
             <h4>This is going to be a breeze.</h4>
         </div>
     </div>
-      <!-- </div> <! End Container -->
   </div> <!-- End Band -->
-    
+  
   <div class = "band services" id="services">
       <div class="container">
         <div class="row">
@@ -83,28 +82,77 @@
                 <h3>Choose any of these options for only $60:</h3>
             </div>
         </div>
-        <div class = "row">
-          <div class = "four columns" >
-              <h5>Setup</h6>
+          
+        <!-- Mobile services begin -->
+        <div class = "row" id = "servicesMColumns">
+          <div class = "four columns">
+              <h5>Setups</h6>
+              <div id = "setupLess">
+              <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
+            </div>
+            <div id = "setupMore" style="display:none;text-align:left;">
+                <p>Our tech gurus set-up:
+<br><br>•&nbsp;Printers
+<br>•&nbsp;Mobile devices (iPads, iPhones, and other tablets and smartphones)
+<br>•&nbsp;Home automation systems
+<br>•&nbsp;New computers
+<br>•&nbsp;Data transfers from your old devices to your new ones
+
+<br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.
+</p> 
+            </div>
+            <button  id="setupBtn">Show More</button>
           </div>
           <div class = "four columns">
             <h5>Lessons</h6>
+            <div id = "lessonLess">
+              <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
+            </div>
+            <div id = "lessonMore" style="display:none;text-align:left;">
+            <p>Our tech gurus can teach you how to:
+<br><br>•&nbsp;Transfer data from cameras, phones, and tablets, to your computer
+<br>•&nbsp;Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
+<br>•&nbsp;Edit your photos and videos using software like Adobe Photoshop, Adobe Premier, iPhoto, and iMovie
+<br>•&nbsp;Navigate your computer’s basic functionalities with ease</span>
+<br>•&nbsp;Use tools like email and web browsing
+                
+<br><br>Don’t see what you want on the list? Request a free consultation using the contact form , and one of our gurus will be more than happy to help.</p>
+            </div>  
+            <button  id="lessonBtn">Show More</button>
           </div>
-          <div class = "four columns">
+          <div class = "four columns" style = "margin-bottom:15%;">
                <h5>Repairs and Tune-Ups</h6>
+               <div id = "repairLess">
+               <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
+              </div>
+              <div id = "repairMore" style="display:none;text-align:left;">
+                <p>Our tech gurus will take care of:
+<br><br>•&nbsp;Speeding up slow computers
+<br>•&nbsp;Recovering/replacing broken or damaged hard-drives
+<br>•&nbsp;Virus removal (and anti-virus installation)
+                
+<br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.</p>
+              </div>
+              <button  id="repairBtn">Show More</button>
           </div>
-        <div class = "row">
+    </div>
+    
+        <!-- Mobile services end -->
+    
+        <!-- Desktop services begin -->
+    
+        <div class = "row" id = "servicesDesktopContent">
           <div class = "four columns" >
             <div id = "setupLess">
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
             </div>
-            <div id = "setupMore" style="display:none;text-align:justify;">
-                <p>Our gurus set-up:
-<br><br>-	Printers
-<br>-	Mobile devices (iPads, iPhones, and other tablets and smartphones)
-<br>-	Home automation systems
-<br>-	New computers
-<br>-	Data transfers from your old devices to your new ones
+            <div id = "setupMore" style="display:none;text-align:left;">
+                <p>Our tech gurus set-up:
+<br><br>•&nbsp;Printers
+<br>•&nbsp;Mobile devices (iPads, iPhones, and other tablets and smartphones)
+<br>•&nbsp;Home automation systems
+<br>•&nbsp;New computers
+<br>•&nbsp;Data transfers from your old devices to your new ones
 
 <br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.
 </p> 
@@ -114,32 +162,32 @@
             <div id = "lessonLess">
               <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
             </div>
-            <div id = "lessonMore" style="display:none;text-align:justify;">
-            <p>Our gurus can teach you how to:
-<br><br>-	Transfer data from cameras, phones, and tablets, to your computer
-<br>-	Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
-<br>-	Edit your photos and videos using software like Adobe Photoshop, Adobe Premier, iPhoto, and iMovie
-<br>-	Navigate your computer’s basic functionalities with ease</span>
-<br>-   Use tools like email and web browsing
+            <div id = "lessonMore" style="display:none;text-align:left;">
+            <p>Our tech gurus can teach you how to:
+<br><br>•&nbsp;Transfer data from cameras, phones, and tablets, to your computer
+<br>•&nbsp;Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
+<br>•&nbsp;Edit your photos and videos using software like Adobe Photoshop, Adobe Premier, iPhoto, and iMovie
+<br>•&nbsp;Navigate your computer’s basic functionalities with ease</span>
+<br>•&nbsp;Use tools like email and web browsing
                 
-<br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.</p>
+<br><br>Don’t see what you want on the list? Request a free consultation using the contact form , and one of our gurus will be more than happy to help.</p>
             </div>
           </div>
           <div class = "four columns">
               <div id = "repairLess">
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
               </div>
-              <div id = "repairMore" style="display:none;text-align:justify;">
-                <p>Our gurus will take care of:
-<br><br>-	Speeding up slow computers
-<br>-	Recovering/replacing broken or damaged hard-drives
-<br>-	Virus removal (and anti-virus installation)
+              <div id = "repairMore" style="display:none;text-align:left;">
+                <p>Our tech gurus will take care of:
+<br><br>•&nbsp;Speeding up slow computers
+<br>•&nbsp;Recovering/replacing broken or damaged hard-drives
+<br>•&nbsp;Virus removal (and anti-virus installation)
                 
 <br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.</p>
               </div>
           </div>
           </div>
-        <div class = "row" style = "margin-bottom: 15%;">
+        <div class = "row" style = "margin-bottom: 15%;" id = "servicesDesktopButtons">
           <div class = "four columns" >
             <button  id="setupBtn">Show More</button>
           </div>
@@ -151,6 +199,9 @@
             <button  id="repairBtn">Show More</button>
           </div>
         </div> <!-- End Row -->
+
+        <!-- Desktop services end -->
+
       </div> <!-- End Container -->
   </div> <!-- End Band -->
 
@@ -202,7 +253,7 @@
                     <img src="./images/chase_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
                 <h3>Chase</h3>
-                <p class = "last" style = "text-align:justify;">Chase will be going into his fourth year of his Bachelor of Science, with a specialization in Computing Science. To pay for school, Chase has worked various jobs building, servicing, and programming computers, and has earned his Apple Certified Mac Technician certificate doing so. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. <br><br>In his spare time, Chase enjoys teaching snowboarding, reading, and making sure Bradley doesn’t starve.</p>  
+                <p class = "last" style = "text-align:justify;">Chase will be going into his fourth year of his Bachelor of Science degree, with a specialization in Computing Science. To pay for school, Chase has worked various jobs building, servicing, and programming computers, and has earned his Apple Certified Mac Technician certificate doing so. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. <br><br>In his spare time, Chase enjoys teaching snowboarding, reading, and making sure Bradley doesn’t starve.</p>  
 
               </div> 
             </div>
@@ -213,7 +264,7 @@
                 </picture>
                 <h3>Bradley</h3>
                 <p class = "last" style = "text-align:justify;">
-Bradley recently graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. During his time as a student, he paid for school by taking jobs as tech support, a camera salesman, photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help people from all walks of life truly feel comfortable with their technology. <br><br>In his spare time, Bradley enjoys rock climbing, building robots, and eating his all of Chase's food.
+Bradley recently graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. During his time as a student, he paid for school by taking jobs as tech support, a camera salesman, a photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help people from all walks of life truly feel comfortable with their technology. <br><br>In his spare time, Bradley enjoys rock climbing, building robots, and eating all of Chase's food.
 </p>
               </div>
           </div>

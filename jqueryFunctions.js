@@ -64,6 +64,35 @@ $(function(){
 	}).trigger('resize');
 });
 
+$(function(){
+	var wind = $(window),
+	servicesDHeaders = $("#servicesDesktopHeaders"),
+    servicesDContent = $("#servicesDesktopContent"),
+    servicesDButtons = $("#servicesDesktopButtons"),
+        
+    servicesMColumns = $("#servicesMColumns");
+                
+
+
+	wind.resize(function(){
+		if (wind.width()<550) {
+		  servicesDHeaders.hide();
+          servicesDContent.hide();
+          servicesDButtons.hide();
+            
+          servicesMColumns.show();
+          //servicesItemsAlt.show();
+		}else{
+          servicesMColumns.hide();
+            
+		  servicesDHeaders.show();
+          servicesDContent.show();
+          servicesDButtons.show();
+          //servicesItemsAlt.hide();
+		}
+	}).trigger('resize');
+});
+
 
 // -------------- Testimonials Slideshow ---------------------
 $(function(){
