@@ -85,11 +85,11 @@
         <!-- Mobile services begin -->
         <div class = "row" id = "servicesMColumns">
           <div class = "four columns">
-              <h5>Setups</h6>
-              <div id = "setupLess">
+              <h5>Setups</h5>
+              <div id = "setupLessM">
               <p>Let us set up your new technology for you. You tell us what you want it to do, and we make it work. Sit back, relax, and watch the magic happen.</p>
             </div>
-            <div id = "setupMore" style="display:none;text-align:left;">
+            <div id = "setupMoreM" style="display:none;text-align:left;">
                 <p>Our tech gurus set-up:
 <br><br>•&nbsp;Printers
 <br>•&nbsp;Mobile devices (iPads, iPhones, and other tablets and smartphones)
@@ -100,14 +100,14 @@
 <br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.
 </p> 
             </div>
-            <button  id="setupBtn">Show More</button>
+            <button  id="setupBtnM">Show More</button>
           </div>
           <div class = "four columns">
-            <h5>Lessons</h6>
-            <div id = "lessonLess">
+            <h5>Lessons</h5>
+            <div id = "lessonLessM">
               <p>From basic computer skills, to software like Photoshop and more, our patient and skilled gurus will teach you what you want to know. In a casual, one-on-one atmosphere, you set the pace. No more frustrating classes!</p>
             </div>
-            <div id = "lessonMore" style="display:none;text-align:left;">
+            <div id = "lessonMoreM" style="display:none;text-align:left;">
             <p>Our tech gurus can teach you how to:
 <br><br>•&nbsp;Transfer data from cameras, phones, and tablets, to your computer
 <br>•&nbsp;Synchronize your files across your devices (iCloud, Google Drive, Microsoft OneDrive, Dropbox, etc.)
@@ -117,14 +117,14 @@
                 
 <br><br>Don’t see what you want on the list? Request a free consultation using the contact form , and one of our gurus will be more than happy to help.</p>
             </div>  
-            <button  id="lessonBtn">Show More</button>
+            <button  id="lessonBtnM">Show More</button>
           </div>
           <div class = "four columns" style = "margin-bottom:15%;">
-               <h5>Repairs and Tune-Ups</h6>
-               <div id = "repairLess">
+               <h5>Repairs and Tune-Ups</h5>
+               <div id = "repairLessM">
                <p>Have a trusted piece of technology that just isn’t working the way it used to? Let us know what the problem is, and we’ll take care of the rest.</p>
               </div>
-              <div id = "repairMore" style="display:none;text-align:left;">
+              <div id = "repairMoreM" style="display:none;text-align:left;">
                 <p>Our tech gurus will take care of:
 <br><br>•&nbsp;Speeding up slow computers
 <br>•&nbsp;Recovering/replacing broken or damaged hard-drives
@@ -132,13 +132,25 @@
                 
 <br><br>Don’t see what you want on the list? Request a free consultation using the contact form below, and one of our gurus will be more than happy to help.</p>
               </div>
-              <button  id="repairBtn">Show More</button>
+              <button  id="repairBtnM">Show More</button>
           </div>
     </div>
     
         <!-- Mobile services end -->
     
         <!-- Desktop services begin -->
+        <div class = "row" id = "servicesDesktopHeaders">
+    
+        <div class = "four columns">
+            <h5>Setups</h5>
+        </div>
+        <div class = "four columns">
+            <h5>Lessons</h5>
+        </div>
+        <div class = "four columns">
+            <h5>Repairs and Tune-Ups</h5>
+        </div>
+        </div>
     
         <div class = "row" id = "servicesDesktopContent">
           <div class = "four columns" >

@@ -13,6 +13,20 @@ $(function(){
     });
 });
 
+$(function(){
+	$("#setupBtnM").click(function(){
+        if($("#setupLessM").css("display")!='none') {
+        	$("#setupMoreM").show();
+        	$("#setupLessM").hide();
+        	$(this).html("Show Less");
+        } else if ($("#setupMoreM").css("display")!="none"){
+        	$("#setupLessM").show();
+        	$("#setupMorem").hide();
+        	$(this).html("Show More");
+        } 
+    });
+});
+
 
 $(function(){
 	$("#lessonBtn").click(function(){
@@ -29,6 +43,21 @@ $(function(){
     });
 });
 
+$(function(){
+	$("#lessonBtnM").click(function(){
+        if($("#lessonLessM").css("display")!='none') {
+        	$("#lessonMoreM").show();
+        	$("#lessonLessM").hide();
+        	$(this).html("Show Less");
+        } else if ($("#lessonMoreM").css("display")!="none"){
+        	$("#lessonLessM").show();
+        	$("#lessonMoreM").hide();
+        	$(this).html("Show More");
+
+        } 
+    });
+});
+
 
 $(function(){
 	$("#repairBtn").click(function(){
@@ -39,6 +68,20 @@ $(function(){
         } else if ($("#repairMore").css("display")!="none"){
         	$("#repairLess").show();
         	$("#repairMore").hide();
+        	$(this).html("Show More");
+        } 
+    });
+});
+
+$(function(){
+	$("#repairBtnM").click(function(){
+        if($("#repairLessM").css("display")!='none') {
+        	$("#repairMoreM").show();
+        	$("#repairLessM").hide();
+        	$(this).html("Show Less");
+        } else if ($("#repairMoreM").css("display")!="none"){
+        	$("#repairLessM").show();
+        	$("#repairMoreM").hide();
         	$(this).html("Show More");
         } 
     });

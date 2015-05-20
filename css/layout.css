@@ -47,7 +47,7 @@
     margin-bottom: 20%;
     margin-left:22.5%;
     text-align: center;
-    width: 500px;
+    width: 550px;
     
 }
 
@@ -190,7 +190,9 @@
 /* ---------------- 3. Services Styling ---------------- */
 
 .band.services{
-    background-color: #343434;
+    background-color: #343434;/*
+    background-image: url(../images/black_bg_1.png);
+    background-repeat: repeat;*/
 }
 
 .band.services h5{
@@ -251,7 +253,9 @@ button:hover {
 }
 
 .band.about {
-    background: #f8f8f8;
+    /*background: #f8f8f8;*/
+    background-image: url(../images/white_bg_1.png);
+    background-repeat: repeat;
 }
 
 .band.about h5{
@@ -291,9 +295,11 @@ button:hover {
 /* ---------------- 6. Contact Styling ---------------- */
 
 .band.contact {
-    background: #343434;
+    /*background: #343434;*/
     color: white;
     text-align: center;
+    background-image: url(../images/black_bg_1.png);
+    background-repeat: repeat;
 }
 
 .band.contact h5{
