@@ -56,8 +56,6 @@ $(function(){
 	wind.resize(function(){
 		if (wind.width()<1275) {
 		  navItems.hide();
-		  //logoImage.css("margin-right", "500px");
-          //phoneNumber.css("margin-left", "200px");
 		}else{
 		  navItems.show();
 		}
