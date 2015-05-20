@@ -154,7 +154,7 @@
       </div> <!-- End Container -->
   </div> <!-- End Band -->
 
-  <div class = "band testimonies" id = "testimonies">
+  <div class = "band testimonies" id = "testimonies" style="display:none;">
     <div class = "container">
       <div class = "row">
         <div class = "twelve columns">
