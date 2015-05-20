@@ -67,13 +67,41 @@ $(function(){
     var currentIndex = 0;
     var items = $(".band.testimonies .slideshow.container div");
     var itemAmt = items.length;
+    var item = $(".band.testimonies .slideshow.container div").eq(currentIndex);
+    items.hide();
+    item.show();
+
+
+    $("#slideshowPrev").click(function(){
+        
+        
+        if (currentIndex == 0){
+            currentIndex = itemAmt;
+        } 
+        currentIndex -= 1;
+        items.hide();
+        item = items.eq(currentIndex);
+        item.show();
+        item.animate({left: '250px'});        
+    });
 
     $("#slideshowNext").click(function(){
-        var item = $(".band.testimonies .slideshow.container div").eq(currentIndex);
-        items.hide();
+        
         currentIndex += 1;
-        item = $(".band.testimonies .slideshow.container div").eq($currentIndex);
-        item.show();
+        if (currentIndex == itemAmt){
+            currentIndex = 0;
+        }
+        items.hide();
+        item = items.eq(currentIndex);
+        item.show();        
+    });
+
+    $("#slideOff").click(function(){
+        item=items.eq(currentIndex);
+        $('#slideTest').animate({
+            left: '1000px',       //this isnt working but opacity
+            opacity: '0.5'
+        });       
     });
 
 });
