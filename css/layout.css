@@ -13,78 +13,20 @@
 1. Nav Styling
 2. Landing Styling
 3. Services Styling
-4. Who We Are Styling
-5. Contact Styling
-6. Misc Body Styling
+4. User Testimonies
+5. Who We Are Styling
+6. Contact Styling
+7. Misc Body Styling
 
 */
 
 
-/* ---------------- 1. Nav Styling ---------------- 
-.band.nav {
-    background: #343434;
-    margin:0;
-    opacity: 2;
-}
 
-/* Moves the margin for just the specific nav container 
-.band.nav .container {
-    margin-bottom:10px;
-}
 
-.band.nav picture img,
-.band.nav picture source{
-    margin-top: 25px;
-    margin-bottom: 20px;
-    vertical-align: middle;
-    float:left;
-}
+/* ---------- 1. Remove Nav on window resize ---------- */
 
-.list.nav {
-    margin-top: 25px;
-    text-align: center;
-    float: left;
-    margin-left: 0;
-}
 
-.band.nav ul,
-.band.nav ul, li{
-    margin: 0
-}
 
-.band.nav ul {
-    align-content: center; 
-    list-style: none;
-}
-
-.band.nav ul li {
-    display: inline;
-    position: relative;
-    margin-right: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.band.nav ul li a{
-    display: inline-block;
-    text-transform: uppercase;
-    margin-right: 20px;
-    margin-top: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.band.nav h5{
-    align-content: center;
-    float: right;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-}*/
 
 /* ---------------- 2. Landing Styling ---------------- */
 
@@ -242,8 +184,24 @@ button:hover {
     color:white;
 }
 
+/* ---------------- 4. User Testimonies ------------------ */
+.band.testimonies{
+    background-color: #00BFFF
+}
 
-/* ---------------- 4. Who We Are Styling ---------------- */
+.band.testimonies h5 {
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.band.testimonies .slideshow.container {
+    margin-bottom: 20%;
+}
+
+
+
+/* ---------------- 5. Who We Are Styling ---------------- */
 
 .band {
     margin:0;
@@ -287,7 +245,7 @@ button:hover {
     margin-top:5%
 }
 
-/* ---------------- 5. Contact Styling ---------------- */
+/* ---------------- 6. Contact Styling ---------------- */
 
 .band.contact {
     background: #343434;
