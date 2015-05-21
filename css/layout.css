@@ -52,7 +52,32 @@
 }
 
 
-.band.landing h3 {
+.band.landing h1{
+    color:white;
+    display: block;
+    vertical-align: center;
+    font-weight: bold;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    padding: 0;
+    display:block;
+}
+.band.landing h2{
+    color:#343434;
+    color:white;
+    display: block;
+    vertical-align:center;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    padding: 0;
+    display:block;
+}
+
+.band.landing h3{
     color:white;
     display: block;
     vertical-align: center;
@@ -227,6 +252,11 @@ button:hover {
     color:#33C3F0;
     background:white;
     border-color: white;
+}
+
+/* ---------------- Payment Options ---------------- */
+.band.payment {
+    background-color: #00BFFF
 }
 
 /* ---------------- 4. User Testimonies ------------------ */
