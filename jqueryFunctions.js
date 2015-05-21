@@ -21,7 +21,7 @@ $(function(){
         	$(this).html("Show Less");
         } else if ($("#setupMoreM").css("display")!="none"){
         	$("#setupLessM").show();
-        	$("#setupMorem").hide();
+        	$("#setupMoreM").hide();
         	$(this).html("Show More");
         } 
     });

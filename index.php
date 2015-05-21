@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <title>Breeze Technical Services</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Chase, McCarty, Bradley, Poulette">
+  <meta name="description" content="An Edmonton based in home technology service company.">
+  <meta name="keywords" content="edmonton, computer, help, training, repair, lessons, service, technology">
 
-  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
@@ -58,8 +58,8 @@
       </div>
     <div class="twelve columns">
         <div class = "text container">
-            <h3>Get Comfortable</h3>
-            <h4>This is going to be a breeze.</h4>
+            <h1>Get Comfortable</h1>
+            <h2>This is going to be a breeze.</h2>
         </div>
     </div>
   </div> <!-- End Band -->
@@ -212,9 +212,31 @@
         </div> <!-- End Row -->
 
         <!-- Desktop services end -->
-
       </div> <!-- End Container -->
   </div> <!-- End Band -->
+
+  <div class = "band payment" id = "payment">
+    <picture>
+      <a href="http://www.mastercard.ca">
+        <img src = "Payment Images/mastercard.png" alt="Mastercard">
+      </a>
+    </picture>
+    <picture>
+      <a href="http://www.visa.ca">
+        <img src = "Payment Images/visa.png" alt="Visa">
+      </a>
+    </picture>
+    <picture>
+      <a href="http://www.americanexpress.ca">
+        <img src = "Payment Images/amex.png" alt="American Express">
+      </a>
+    </picture>
+    <picture>
+      <a href="http://www.squareup.com">
+        <img src = "Payment Images/square.png" alt="Square">
+      </a>
+    </picture>
+  </div>
 
   <div class = "band testimonies" id = "testimonies" style="display:none;">
     <div class = "container">
