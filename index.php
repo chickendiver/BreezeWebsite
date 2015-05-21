@@ -64,6 +64,44 @@
         </div>
     </div>
   </div> <!-- End Band -->
+
+
+  <div class="band description">
+    <div class="container">
+      <div class="row">
+        <h5>A Bit About Breeze:</h5>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <p style="font-weight: bold;">
+            The Way it is Now: 
+          </p>
+          <p>
+            You notice something isn't working properly. <br>
+            You spend time figuring out exactly what piece is the broken one. <br>
+            You drive to the technician. (hoping you brought the correct piece). <br>
+            The technician spends about 5 seconds pressing a button. <br> 
+            He gives you a page of instructions to set the thing back up when you get home <br>
+
+          </p>
+        </div>
+        <div class="six columns">
+          <p style="font-weight: bold;">
+            The Way it Could Be:
+          </p>
+          <p>
+              You notice something isn't working properly. <br>
+              You call Breeze <br>
+              You sit back and let Breeze do all the work <br>
+              You're stuff works again! <br>
+            </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
   
   <div class = "band services" id="services">
       <div class="container">
