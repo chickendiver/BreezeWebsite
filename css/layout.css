@@ -212,6 +212,28 @@
     }
 }
 
+/* ---------------- Business Description --------------- */
+
+    .band.description {
+        background-color: #00BFFF
+    }
+
+    .band.description .container{
+        overflow: none;
+    }
+
+    .band.description h5 {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+
+    .band.description p{
+        color: white;
+    }
+
+
 /* ---------------- 3. Services Styling ---------------- */
 
 .band.services{
