@@ -285,7 +285,7 @@
           </div>
       </div>
       <div class = "row">
-          <div class = "twelve columns" style = "margin-bottom: 5%;">
+          <div class = "twelve columns" style = "margin-bottom: 10%;">
             <picture>
               <a href="http://www.squareup.com">
                 <img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">
