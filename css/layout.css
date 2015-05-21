@@ -256,12 +256,22 @@ button:hover {
 
 /* ---------------- Payment Options ---------------- */
 .band.payment {
-    background-color: #00BFFF
+    background-color: white;
+    background-image: url(../images/white_bg_1.png);
+    background-repeat: repeat;  
+    text-align: center;
+    
+}
+
+.band.payment img{
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right:15px;
 }
 
 /* ---------------- 4. User Testimonies ------------------ */
 .band.testimonies{
-    background-color: #00BFFF
+    background-color: #00BFFF;  
 }
 
 .band.testimonies h5 {
@@ -284,19 +294,19 @@ button:hover {
 
 .band.about {
     /*background: #f8f8f8;*/
-    background-image: url(../images/white_bg_1.png);
+    background-image: url(../images/black_bg_1.png);
     background-repeat: repeat;
 }
 
 .band.about h5{
-    color: #343434;
+    color: white;
     text-align: center;
     font-weight: bold;
     margin-top: 15%;
 }
 
 .band.about h3{
-    color: #343434;
+    color: white;
     text-align: center;
     font-weight: bold;
     margin:0;
@@ -305,7 +315,7 @@ button:hover {
 }
 
 .band.about p{
-    color: #343434;
+    color: white;
     margin:0;
     text-align: center;
 }
@@ -325,23 +335,19 @@ button:hover {
 /* ---------------- 6. Contact Styling ---------------- */
 
 .band.contact {
-    background: #343434;
-    color: white;
+    background: white;
+    color: #343434;
     text-align: center;
-    background-image: url(../images/black_bg_1.png);
+    background-image: url(../images/white_bg_1.png);
     background-repeat: repeat;
 }
 
 .band.contact h5{
-    color: white;
+    color: #343434;
     text-align: center;
     font-weight: bold;
     margin-top: 10%;
     margin-bottom: 5%;
-}
-
-.band.contact h2{
-
 }
 
 .band.contact #submit-button {
@@ -366,7 +372,7 @@ button:hover {
 }
 
 .band.contact input#submit-button {
-    color:white;
+    color:#343434;
     margin:0;
     margin-right: auto;
     margin-left: auto;

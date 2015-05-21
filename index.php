@@ -217,26 +217,34 @@
   </div> <!-- End Band -->
 
   <div class = "band payment" id = "payment">
-    <picture>
-      <a href="http://www.mastercard.ca">
-        <img src = "Payment Images/mastercard.png" alt="Mastercard">
-      </a>
-    </picture>
-    <picture>
-      <a href="http://www.visa.ca">
-        <img src = "Payment Images/visa.png" alt="Visa">
-      </a>
-    </picture>
-    <picture>
-      <a href="http://www.americanexpress.ca">
-        <img src = "Payment Images/amex.png" alt="American Express">
-      </a>
-    </picture>
-    <picture>
-      <a href="http://www.squareup.com">
-        <img src = "Payment Images/square.png" alt="Square">
-      </a>
-    </picture>
+    <div class = "row">
+        <div class = "twelve columns" style = "margin-top: 10%;">
+            <picture>
+              <a href="http://www.mastercard.ca">
+                <img src = "Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
+              </a>
+            </picture>
+            <picture>
+              <a href="http://www.visa.ca">
+                <img src = "Payment Images/visa_no_bg_200.png" alt="Visa">
+              </a>
+            </picture>
+            <picture>
+              <a href="http://www.americanexpress.ca">
+                <img src = "Payment Images/amex_no_bg_200.png" alt="American Express">
+              </a>
+            </picture>
+        </div>
+      </div>
+      <div class = "row">
+          <div class = "twelve columns" style = "margin-bottom: 5%;">
+            <picture>
+              <a href="http://www.squareup.com">
+                <img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Square">
+              </a>
+            </picture>
+        </div>
+      </div>
   </div>
 
   <div class = "band testimonies" id = "testimonies" style="display:none;">
