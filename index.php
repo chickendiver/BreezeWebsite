@@ -256,7 +256,7 @@
 
   <div class = "band payment" id = "payment">
     <div class = "row">
-        <div class = "twelve columns" style = "margin-top: 10%;">
+        <div class = "twelve columns" style = "margin-top: 10%; margin-bottom: 3%">
             <picture>
               <a href="http://www.mastercard.ca">
                 <img src = "Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
@@ -272,13 +272,23 @@
                 <img src = "Payment Images/amex_no_bg_200.png" alt="American Express">
               </a>
             </picture>
+            <picture>
+              <a href="http://www.interac.ca">
+                <img src = "Payment Images/interac_no_bg_200.png" alt="Interac">
+              </a>
+            </picture>
         </div>
+      </div>
+      <div class = "row">
+          <div class = "twelve columns" style = "margin-bottom: 0;">
+              <h4>Powered By</h4>
+          </div>
       </div>
       <div class = "row">
           <div class = "twelve columns" style = "margin-bottom: 5%;">
             <picture>
               <a href="http://www.squareup.com">
-                <img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Square">
+                <img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">
               </a>
             </picture>
         </div>
