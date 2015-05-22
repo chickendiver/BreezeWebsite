@@ -61,6 +61,9 @@
         <div class = "text container">
             <h1>Get Comfortable</h1>
             <h2>This is going to be a breeze.</h2>
+            <div class="scroll down" style="float: right; margin-top: 20%;">
+              <h2>Scroll Down</h2>
+            </div>
         </div>
     </div>
   </div> <!-- End Band -->

@@ -135,6 +135,18 @@ $(function(){
 });
 
 
+// -------------- "scroll down" image --------------------
+$(function() {
+    $(window).scroll(function(){
+        var st = $(this).scrollTop();
+            if (st >= 200){
+                $(".scroll.down").fadeOut();
+            } else if (st < 200){
+                $(".scroll.down").fadeIn();    
+            }
+    });
+});
+
 // -------------- Testimonials Slideshow ---------------------
 $(function(){
     var currentIndex = 0;
