@@ -256,9 +256,9 @@
             <picture>
                 <img src = "Payment Images/amex_no_bg_200.png" alt="American Express">
             </picture>
-            <picture>
+            <!--<picture>
                 <img src = "Payment Images/interac_no_bg_200.png" alt="Interac">
-            </picture>
+            </picture>-->
         </div>
       </div>
       <div class = "row">
@@ -269,7 +269,8 @@
       <div class = "row">
           <div class = "twelve columns" style = "margin-bottom: 10%;">
             <picture>
-                <img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">
+                <!--<img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">-->
+                <img src = "Payment%20Images/square_no_bg_200.png" alt="Square">
             </picture>
         </div>
       </div>
