@@ -52,7 +52,7 @@
                     </div>
                 
                 <!-- <div class = "three columns"> -->
-                    <h5 id="phoneNumber">(780) 700 1070</h5>            
+                    <h5 id="phoneNumber">780-700-1070</h5>            
                 <!-- </div> -->
               
           </div> <!-- End Container -->
@@ -67,37 +67,24 @@
 
 
   <div class="band description">
+    <div class = "landing gradient">
+    </div>
     <div class="container">
       <div class="row">
-        <h5>A Bit About Breeze:</h5>
+        <div class="twelve columns" style = "margin-top:15%;">
+          <h4>Homegrown in Edmonton, Alberta since 2014</h4>
+        </div>
       </div>
       <div class="row">
-        <div class="six columns">
-          <p style="font-weight: bold;">
-            The Way it is Now: 
-          </p>
-          <p>
-            You notice something isn't working properly. <br>
-            You spend time figuring out exactly what piece is the broken one. <br>
-            You drive to the technician. (hoping you brought the correct piece). <br>
-            The technician spends about 5 seconds pressing a button. <br> 
-            He gives you a page of instructions to set the thing back up when you get home <br>
-
-          </p>
-        </div>
-        <div class="six columns">
-          <p style="font-weight: bold;">
-            The Way it Could Be:
-          </p>
-          <p>
-              You notice something isn't working properly. <br>
-              You call Breeze <br>
-              You sit back and let Breeze do all the work <br>
-              You're stuff works again! <br>
-            </p>
-        </div>
-
+            <div class="twelve columns">
+                <h5>At a time when it is crucial to have a basic understanding of what technology is out there and how to use it, it can be hard to keep up. We provide in-home service, teaching fundamental tech skills, as well as solving more complicated problems. We offer service that is a cut above the rest by putting the customer first, and never compromising on quality.</h5>
+            </div>
       </div>
+      <div class="row">
+          <div class="twelve columns" style = "margin-bottom:12%;">
+              <h5>We look forward to seeing you soon.</h5>
+          </div>
+        </div>
     </div>
   </div>
 
@@ -112,7 +99,7 @@
         </div>
         <div class = "row">
             <div class = "twelve columns">
-                <h3>With our simple pricing, it's easy to get what you need.</h3>
+                <h3>With our simple pricing, it's easy to get what you need, right to your door.</h3>
             </div>
         </div>
         <div class = "row">
@@ -258,24 +245,16 @@
     <div class = "row">
         <div class = "twelve columns" style = "margin-top: 10%; margin-bottom: 3%">
             <picture>
-              <a href="http://www.mastercard.ca">
                 <img src = "Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
-              </a>
             </picture>
             <picture>
-              <a href="http://www.visa.ca">
                 <img src = "Payment Images/visa_no_bg_200.png" alt="Visa">
-              </a>
             </picture>
             <picture>
-              <a href="http://www.americanexpress.ca">
                 <img src = "Payment Images/amex_no_bg_200.png" alt="American Express">
-              </a>
             </picture>
             <picture>
-              <a href="http://www.interac.ca">
                 <img src = "Payment Images/interac_no_bg_200.png" alt="Interac">
-              </a>
             </picture>
         </div>
       </div>
@@ -287,9 +266,7 @@
       <div class = "row">
           <div class = "twelve columns" style = "margin-bottom: 10%;">
             <picture>
-              <a href="http://www.squareup.com">
                 <img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">
-              </a>
             </picture>
         </div>
       </div>
@@ -372,7 +349,7 @@ Bradley recently graduated from the University of Alberta with a Bachelor of Art
         </div>
 
         <div class = "row">
-          <div class="twelve columns">
+          <div class="twelve columns" style = "margin-bottom: 10%;">
             <div id="contact-form">
 
             <?php

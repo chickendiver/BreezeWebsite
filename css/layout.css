@@ -215,7 +215,16 @@
 /* ---------------- Business Description --------------- */
 
     .band.description {
-        background-color: #00BFFF
+        background-color: white;
+        background-image: url(../images/white_bg_1.png);
+        background-repeat: repeat;
+    }
+    
+    .band.description .landing.gradient{
+        /*display:none;*/
+        background-image: url(../images/landing_gradient_bottom.png);
+        background-repeat: repeat-x;
+        height: 10px;
     }
 
     .band.description .container{
@@ -223,16 +232,17 @@
     }
 
     .band.description h5 {
-        color: white;
+        color: #343434;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .band.description h4 {
+        color: #343434;
         text-align: center;
         font-weight: bold;
         margin-bottom: 5%;
     }
-
-    .band.description p{
-        color: white;
-    }
-
 
 /* ---------------- 3. Services Styling ---------------- */
 
@@ -285,6 +295,10 @@ button:hover {
     
 }
 
+.band.payment h4{
+    color: #343434;
+}
+
 .band.payment img{
     vertical-align: middle;
     margin-left: 15px;
@@ -307,7 +321,6 @@ button:hover {
 }
 
 
-
 /* ---------------- 5. Who We Are Styling ---------------- */
 
 .band {
@@ -315,7 +328,7 @@ button:hover {
 }
 
 .band.about {
-    /*background: #f8f8f8;*/
+    background-color: #343434;
     background-image: url(../images/black_bg_1.png);
     background-repeat: repeat;
 }
@@ -394,7 +407,7 @@ button:hover {
 }
 
 .band.contact input#submit-button {
-    color:#343434;
+    color:black;
     margin:0;
     margin-right: auto;
     margin-left: auto;
