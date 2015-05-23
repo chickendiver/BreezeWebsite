@@ -139,6 +139,7 @@ $(function(){
 $(function() {
     $(window).scroll(function(){
         var st = $(this).scrollTop();
+        //console.log(st);
             if (st >= 200){
                 $(".scroll.down").fadeOut();
             } else if (st < 200){
