@@ -39,7 +39,7 @@
                        <!--<source media="(min-width: 64em)" src="./images/high-res_logo.png">
                        <source media="(min-width: 37.5em)" src="./images/med-res_logo.png">
                        <source src="./images/low-res_logo.png">-->
-                       <img src="./images/low-res_logo.png" alt="Breeze Technical Services" id="breezeLogo">
+                       <img src="./images/breeze_logo_low_res_100v3.png" alt="Breeze Technical Services" id="breezeLogo">
                     </picture>
                 
                 
@@ -52,7 +52,7 @@
                     </div>
                 
                 <!-- <div class = "three columns"> -->
-                    <h5 id="phoneNumber">780-700-1070</h5>            
+                    <h5 id="phoneNumber">(587) 782 4441</h5> 
                 <!-- </div> -->
               
           </div> <!-- End Container -->
@@ -61,7 +61,7 @@
         <div class = "text container">
             <h1>Get Comfortable</h1>
             <h2>This is going to be a breeze.</h2>
-            <div class="scroll down" style="float: right; margin-top: 20%;">
+            <div class="scroll down" style="float: right; margin-top: 20%; display: none;">
               <h2>Scroll Down</h2>
             </div>
         </div>
