@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Setup | Breeze Technical Services</title>
+	<title>Repairs | Breeze Technical Services</title>
 	<meta name="author" content="Chase, McCarty, Bradley, Poulette">
 	<meta name="description" content="More information about Lessons.">
 	<meta name="keywords" content="edmonton, computer, help, setup, consulting, new, technology">
