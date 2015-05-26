@@ -135,7 +135,7 @@ $(function(){
 });
 
 
-// -------------- "scroll down" image --------------------
+/* -------------- "scroll down" image --------------------
 $(function() {
     $(window).scroll(function(){
         var st = $(this).scrollTop();
@@ -146,7 +146,7 @@ $(function() {
                 $(".scroll.down").fadeIn();    
             }
     });
-});
+}); */
 
 // -------------- Testimonials Slideshow ---------------------
 $(function(){

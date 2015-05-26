@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/layout.css">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
-  <script src="jqueryFunctions.js"></script>
+  <script src="Javascript/jqueryFunctions.js"></script>
 
 
 
@@ -248,16 +248,16 @@
     <div class = "row">
         <div class = "twelve columns" style = "margin-top: 10%; margin-bottom: 3%">
             <picture>
-                <img src = "Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
+                <img src = "images/Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
             </picture>
             <picture>
-                <img src = "Payment Images/visa_no_bg_200.png" alt="Visa">
+                <img src = "images/Payment Images/visa_no_bg_200.png" alt="Visa">
             </picture>
             <picture>
-                <img src = "Payment Images/amex_no_bg_200.png" alt="American Express">
+                <img src = "images/Payment Images/amex_no_bg_200.png" alt="American Express">
             </picture>
             <!--<picture>
-                <img src = "Payment Images/interac_no_bg_200.png" alt="Interac">
+                <img src = "images/Payment Images/interac_no_bg_200.png" alt="Interac">
             </picture>-->
         </div>
       </div>
@@ -269,8 +269,8 @@
       <div class = "row">
           <div class = "twelve columns" style = "margin-bottom: 10%;">
             <picture>
-                <!--<img src = "Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">-->
-                <img src = "Payment%20Images/square_no_bg_200.png" alt="Square">
+                <!--<img src = "images/Payment Images/moneris_payd_no_bg_200.png" alt="Moneris Payd Pro">-->
+                <img src = "images/Payment Images/square_no_bg_200.png" alt="Square">
             </picture>
         </div>
       </div>
@@ -381,7 +381,7 @@ Bradley recently graduated from the University of Alberta with a Bachelor of Art
             </ul>
             <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
         
-            <form method="post" action="process.php">
+            <form method="post" action="PHP/process.php">
                       <label for="name">Name: <span class="required">*</span></label>
                       <input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required="required" <?php echo($sr && !$cr['form_ok'] ? 'autofocus="autofocus"' : '')?> />
                        
