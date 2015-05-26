@@ -20,7 +20,7 @@
     margin-right:5%;
     margin-bottom: 10%;
     text-align: center;
-    width: 700px;
+    width: 900px;
     float:right;
 }
 
@@ -179,15 +179,12 @@
     text-align: center;
 }
 
-
 /* ========= Contact Form =========== */
 
 .band.contact {
-    background: grey;
     color: #343434;
+    background: grey;
     text-align: center;
-    /*background-image: url(../images/white_bg_1.png);
-    background-repeat: repeat;*/
 }
 
 .band.contact h5{

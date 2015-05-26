@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Setup | Breeze Technical Services</title>
 	<meta name="author" content="Chase, McCarty, Bradley, Poulette">
-	<meta name="description" content="More information about setups.">
+	<meta name="description" content="More information about Lessons.">
 	<meta name="keywords" content="edmonton, computer, help, setup, consulting, new, technology">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
 	  
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/skeleton.css">
-	<link rel="stylesheet" href="css/layout_setup.css">
+	<link rel="stylesheet" href="css/layout_repair.css">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
 	<!--script src="javascript/jqueryFunctions_setup.js"></script-->
@@ -35,9 +35,9 @@
 
 				<div class = "list nav">
 					<ul>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="/setup.php">Setup</a></li>
 						<li><a href="/lessons.php">Lessons</a></li>
-						<li><a href="/repair.php">Repairs</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 
@@ -47,8 +47,8 @@
 		</div>
 
 		<div class = "text container">
-			<h1> Enjoy Cutting Edge Tech </h1>
-			<h2> Without the hassle of setup! </h2>
+			<h1>Call Us, Sit Back, and Relax</h1>
+			<h2>It'll be Fixed in No Time</h2>
 		</div>
 
 	</div>
@@ -60,11 +60,11 @@
 			</div>
 			<div class = "row">
 				<h4>
-					You let us know what needs to be setup, and <br>
-					we send the right person to get the job done. <br>
-					We setup existing tech, or make suggestions on <br>
-					new tech. Often times multiple pieces can be <br>
-					setup in just one visit.<br>
+					Don't move a muscle. We come to you, <br>
+					determine the cause of the problem, <br>
+					and fix ir on the spot. If extra parts <br>
+					are needed, you pay our cost on the part <br>
+					+ the repair fee. 
 				 </h4>
 			</div>
 			<div class = "row" style = "margin-top: 10em">
@@ -72,14 +72,12 @@
 			</div>
 			<div class = "row" style = "margin-bottom: 5em">
 					
-					<h4>Some of our most common setups include:</h4>
+					<h4>Some of our most common repairs include:</h4>
 					<h5>
-					Wifi and Wifi Extenders<br>
-					Moving data to new Computers/Phones/Laptops <br>
-					Wireless Printers<br>
-					iCloud/Dropbox/Drive<br>
-					Email Accounts<br>
-					Universal Remotes<br>
+					Slow or Buggy Computers<br>
+					Dead Hard Drives<br>
+					Virus/Malware removal<br>
+					Data Recovery<br>
 					and so much more. <br>
 				 </h5>
 			</div>
