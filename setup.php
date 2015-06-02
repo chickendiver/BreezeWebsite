@@ -46,6 +46,10 @@
 			</div>
 		</div>
 
+		<div class = "container">
+			<h2>Setup</h2>
+		</div>
+
 		<div class = "text container">
 			<h1> Enjoy Cutting Edge Tech </h1>
 			<h2> Without the hassle of setup! </h2>

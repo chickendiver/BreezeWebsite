@@ -46,6 +46,10 @@
 			</div>
 		</div>
 
+		<div class = "container">
+			<h2>Lessons</h2>
+		</div>
+
 		<div class = "text container">
 			<h1>Get Comfortable With Technology</h1>
 			<h2>One on One with our Patient Instructors</h2>

@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/layout.css">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
-  <script src="Javascript/jqueryFunctions.js"></script>
+  <script src="javascript/jqueryFunctions.js"></script>
 
 
 
@@ -395,8 +395,6 @@ Bradley recently graduated from the University of Alberta with a Bachelor of Art
                       <select id="contactType" name="contactType" >
                           <option value="email" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'email') ? "selected='selected'" : '' ?>>Email</option>
                           <option value="phone" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'phone') ? "selected='selected'" : '' ?>>Phone</option>
-                          <option value="pigeon" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'pigeon') ? "selected='selected'" : '' ?>>Carrier Pigeon</option>
-                          <option value="telegram" <?php echo($sr && !$cr['form_ok'] && $cf['posted_form_data']['contactType'] == 'telegram') ? "selected='selected'" : '' ?>>Telegram</option>
                       </select>
                        
                       <label for="message">Message: <span class="required">*</span></label>

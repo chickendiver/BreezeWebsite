@@ -46,6 +46,10 @@
 			</div>
 		</div>
 
+		<div class = "container">
+			<h2>Repair</h2>
+		</div>
+
 		<div class = "text container">
 			<h1>Call Us, Sit Back, and Relax</h1>
 			<h2>It'll be Fixed in No Time</h2>

@@ -397,6 +397,8 @@ button:hover {
 .band.contact input, .band.contact textarea, .band.contact select {
     color:black;
     width:50%;
+    border-color: black;
+    /*border-width: 1px;*/
 }
 
 @media screen and (max-width: 400px) {
