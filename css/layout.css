@@ -296,6 +296,7 @@ button:hover {
 
 .band.pricing h1 {
     display:block;
+    margin-bottom: 20px;
 }
 
 .band.pricing h3 {
@@ -324,28 +325,41 @@ button:hover {
 }
 
 
-.band.pricing .button {
+.band.pricing .item {
     display:block;
-    background-color: grey;
+    background-color: white;
+    border: 2px solid black;
     border-radius: 10px;
-    height: 10em;
-    width: 25em;
+    height: 80px;
+    width: 380px;
     overflow: auto;
     margin-left:auto;
     margin-right: auto;
 }
 
 
-.band.pricing .button.large {
+.band.pricing .item.large {
     display:block;
-    background-color: grey;
+    background-color: white;
+    border-color: black;
     border-radius: 10px;
-    height: 25em;
-    width: 25em;
+    height: 200px;
+    width: 380px;
     overflow: auto;
     margin-left:auto;
     margin-right: auto;
 }
+
+.band.pricing .or {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/*
+.band.pricing .four.columns {
+    margin-left: 2%;
+    
+} */
 
 
 

@@ -105,11 +105,6 @@
                 <h3>With our simple pricing, it's easy to get what you need, right to your door.</h3>
             </div>
         </div>
-        <div class = "row">
-            <div class = "twelve columns">
-                <h3>Choose any of these options for only $60:</h3>
-            </div>
-        </div>
           
         <!-- Mobile services begin -->
         <div class = "row" id = "servicesMColumns">
@@ -250,65 +245,62 @@
       <h5>Travel included! a $60 value</h5>
     </div>
 
-    <div class = "row"> 
-      <div class = "four columns"> 
-        <h1 style = "display: inline;">$90</h1>
+    <div class = "row" style="margin-left: 40px; margin-right:40px"> 
+      <div class = "four columns" > 
+        <h1 >$90</h1>
         <!--h2 style = "display: inline;">one visit </h2-->
 
-        <div class = "button" id = "setup">
-          <div class = buttonContent>
+        <div class = "item" id = "setup">
+          <div class = itemContent>
             <h3>Setup</h3>
           </div>
         </div>
 
-        <h5 style="font-weight: bold;">OR</h5>
+        <h5 class = "or">OR</h5>
 
-        <div class = "button" id = "repair">
+        <div class = "item" id = "repair">
           <h3>Repair</h3>
         </div>
 
-        <h5>OR</h5>
+        <h5 class = "or">OR</h5>
 
-        <div class = "button" id = "lesson">
+        <div class = "item" id = "lesson">
           <h3>Lesson</h3>
-          <h5>(2 hour)</h5>
         </div>
       </div>
 
-      <div class = "four columns">
-        <h1 style = "display: inline;">$300</h1>
+      <div class = "four columns" id="test">
+        <h1>$300</h1>
         <!--h2 style = "display: inline;">six months</h2-->        
 
-        <div class = "button large" id = "setup/repair">
+        <div class = "item large" id = "setup/repair">
           <h3>6 Months</h3>
           <h5>In-home setup <br>and repair</h5>
           <h5>+ phone support</h5>
         </div>
 
-        <h5>OR</h5>
+        <h5 class = "or">OR</h5>
 
-        <div class = "button" id = "lesson">
+        <div class = "item" id = "lesson">
           <h3>5 Lessons</h3>
-          <h5>(2 hours each)</h5>
         </div>
 
       </div>
 
       <div class = "four columns">
-        <h1 style = "display: inline;">$500</h1>
+        <h1>$500</h1>
         <!--h2 style = "display: inline;">twelve months</h2-->        
 
-        <div class = "button large" id = "setup/repair">
+        <div class = "item large" id = "setup/repair">
           <h3>12 Months</h3>
           <h5>In-home setup <br>and repair</h5>
           <h5>+ phone support</h5>
         </div>
 
-        <h5>OR</h5>
+        <h5 class = "or">OR</h5>
 
-        <div class = "button" id = "lesson">
+        <div class = "item" id = "lesson">
           <h3>10 Lessons</h3>
-          <h5>(2 hours each)</h5>
         </div>
 
       </div>
