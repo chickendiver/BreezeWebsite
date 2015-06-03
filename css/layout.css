@@ -286,6 +286,69 @@ button:hover {
     border-color: white;
 }
 
+/* ---------------- Pricing ------------------- */
+.band.pricing{
+    background-color: white;
+    background-image: url(../images/white_bg_1.png);
+    background-repeat: repeat;  
+    /*text-align: center; */
+}
+
+.band.pricing h1 {
+    display:block;
+}
+
+.band.pricing h3 {
+    margin: 10px;
+
+}
+
+.band.pricing h4{
+    margin-top: 10%;
+    display:block;
+    font-weight: bold;
+}
+.band.pricing h5{
+    display:block;
+    margin-bottom: 1rem;
+
+}
+
+.band.pricing .four.columns {
+    text-align:center;
+}
+
+.band.pricing .buttonContent {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.band.pricing .button {
+    display:block;
+    background-color: grey;
+    border-radius: 10px;
+    height: 10em;
+    width: 25em;
+    overflow: auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.band.pricing .button.large {
+    display:block;
+    background-color: grey;
+    border-radius: 10px;
+    height: 25em;
+    width: 25em;
+    overflow: auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+
 /* ---------------- Payment Options ---------------- */
 .band.payment {
     background-color: white;
