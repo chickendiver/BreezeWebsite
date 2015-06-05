@@ -97,14 +97,10 @@
       <div class="container">
         <div class="row">
           <div class="twelve columns">
-            <h5>Let's Get Started.</h5>
+            <h5>What We Do</h5>
           </div>
         </div>
-        <div class = "row">
-            <div class = "twelve columns">
-                <h3>With our simple pricing, it's easy to get what you need, right to your door.</h3>
-            </div>
-        </div>
+        
           
         <!-- Mobile services begin -->
         <div class = "row" id = "servicesMColumns">
@@ -242,7 +238,7 @@
   <div class = "band pricing" id = "pricing">
     <div class = "row" style="text-align: center;">
       <h4>Pricing</h4>
-      <h5>Travel included! a $60 value</h5>
+      <h5>Travel included! (a $60 value)</h5>
     </div>
 
     <div class = "row" style="margin-left: 40px; margin-right:40px"> 
@@ -252,38 +248,54 @@
 
         <div class = "item" id = "setup">
           <div class = itemContent>
-            <h3>Setup</h3>
+            <h3 style="margin-top:30px;">Setup</h3>
           </div>
-        </div>
+        
 
         <h5 class = "or">OR</h5>
 
-        <div class = "item" id = "repair">
+        
           <h3>Repair</h3>
-        </div>
+        
 
         <h5 class = "or">OR</h5>
 
-        <div class = "item" id = "lesson">
-          <h3>Lesson</h3>
+        
+          <h3 style="margin-bottom:28px;">2-Hour Lesson</h3>
         </div>
+
+        <a href="#" onclick="return false" class="popper" data-popbox="pop1">Info</a> 
+        <div id="pop1" class="popbox">
+          <p>Allow 1 hour for standard setups. </p>
+          <p>In extreme cases additional hourly rates may apply</p>
+          <p>Allow 1 hour for standard repairs.</p> 
+          <p>Offsite may apply. Parts extra.</p>
+        </div>        
+
       </div>
 
       <div class = "four columns" id="test">
         <h1>$300</h1>
         <!--h2 style = "display: inline;">six months</h2-->        
 
-        <div class = "item large" id = "setup/repair">
-          <h3>6 Months</h3>
-          <h5>In-home setup <br>and repair</h5>
-          <h5>+ phone support</h5>
-        </div>
+        <div class = "item" id = "setup/repair">
+          <h3 style="margin-top:30px;">6 Months</h3>
+          <h5 style="margin-top:22px;">In-home setup <br>and repair</h5>
+          <br>
+        
 
         <h5 class = "or">OR</h5>
 
-        <div class = "item" id = "lesson">
-          <h3>5 Lessons</h3>
+        
+          <h3 style="margin-bottom:30px;">5 Lessons</h3>
         </div>
+
+        <a href="#" onclick="return false" class="popper" data-popbox="pop2">Info</a> 
+        <div id="pop2" class="popbox">
+          <p>Monthly memberships are fully transferable</p>
+          <p>Memberships include one standard repair or setup per month. </p>
+          <p>Parts not included</p>
+        </div>        
 
       </div>
 
@@ -291,17 +303,24 @@
         <h1>$500</h1>
         <!--h2 style = "display: inline;">twelve months</h2-->        
 
-        <div class = "item large" id = "setup/repair">
-          <h3>12 Months</h3>
+        <div class = "item" id = "setup/repair">
+          <h3 style="margin-top:30px;">12 Months</h3>
           <h5>In-home setup <br>and repair</h5>
           <h5>+ phone support</h5>
-        </div>
 
         <h5 class = "or">OR</h5>
 
-        <div class = "item" id = "lesson">
-          <h3>10 Lessons</h3>
+          <h3 style="margin-bottom:30px;">10 Lessons</h3>
         </div>
+
+
+        <a href="#" onclick="return false" class="popper" data-popbox="pop3">Info</a> 
+        <div id="pop3" class="popbox">
+          <p>Monthly memberships are fully transferable</p>
+          <p>Memberships include one standard repair or setup per month.</p> 
+          <p>Parts not included</p>
+          <p>Phone support is unlimited, and available during standard business hours.</p>
+        </div>  
 
       </div>
 
