@@ -46,7 +46,7 @@
                     <div class = "list nav">
                         <ul>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -238,10 +238,11 @@
   <div class = "band pricing" id = "pricing">
     <div class = "row" style="text-align: center;">
       <h4>Pricing</h4>
-      <h5>Travel included! (a $60 value)</h5>
+      <h5>Choose an option that suits you best.
+      Travel is always included within Greater Edmonton</h5>
     </div>
 
-    <div class = "row" style="margin-left: 40px; margin-right:40px; margin-bottom:7%;"> 
+    <div class = "row" style="margin-left: 40px; margin-right:40px; margin-top:5%; margin-bottom:7%;"> 
       <div class = "four columns" > 
         <h1 >$90</h1>
         <!--h2 style = "display: inline;">one visit </h2-->
