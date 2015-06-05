@@ -241,7 +241,7 @@
       <h5>Travel included! (a $60 value)</h5>
     </div>
 
-    <div class = "row" style="margin-left: 40px; margin-right:40px; margin-bottom:10%;"> 
+    <div class = "row" style="margin-left: 40px; margin-right:40px; margin-bottom:7%;"> 
       <div class = "four columns" > 
         <h1 >$90</h1>
         <!--h2 style = "display: inline;">one visit </h2-->
@@ -333,7 +333,7 @@
 
   <div class = "band payment" id = "payment">
     <div class = "row">
-        <div class = "twelve columns" style = "margin-top:10%; margin-bottom: 10%">
+        <div class = "twelve columns" style = "margin-bottom: 10%">
             <picture>
                 <img src = "images/Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
             </picture>
