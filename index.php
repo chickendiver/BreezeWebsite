@@ -360,40 +360,6 @@
       </div>
   </div>
 
-  <div class = "band testimonies" id = "testimonies" style="display:none;">
-    <div class = "container">
-      <div class = "row">
-        <div class = "twelve columns">
-          <h5>Testimonies</h5>    
-        </div> <!-- End Columns -->
-      </div> <!-- End Row -->
-      <div class = "row">
-        <div class = "slideshow container">
-          <div> 
-            <h5>Text 1</h5>
-          </div>
-          <div> 
-            <h5>Text 2</h5>
-          </div>
-          <div> 
-            <h5>Text 3</h5>
-          </div>
-          <div> 
-            <h5>Text 4</h5>
-          </div>
-
-        </div> <!-- End Slideshow container -->
-      </div> <!-- End Row -->
-
-      <button id="slideshowPrev" style="inline" >Prev</button>
-      <button id="slideshowNext" style="inline" >Next</button>
-      <button id="slideOff" style="inline" >Slide</button>
-
-      <div id="slideTest" style="display: inline;">Test </div>
-
-    </div> <!-- End Container -->
-  </div> <!-- End Band -->
-
   <div class = "band about" id="about">
       <div class="container">
         <div class="row">
