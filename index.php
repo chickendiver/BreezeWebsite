@@ -276,7 +276,7 @@
       </div>
 
       <div class = "four columns" id="test">
-        <h1>$300</h1>
+        <h1>$280</h1>
         <!--h2 style = "display: inline;">six months</h2-->        
 
         <div class = "item" id = "setup/repair">
@@ -301,7 +301,7 @@
       </div>
 
       <div class = "four columns">
-        <h1>$500</h1>
+        <h1>$470</h1>
         <!--h2 style = "display: inline;">twelve months</h2-->        
 
         <div class = "item" id = "setup/repair">
@@ -408,7 +408,10 @@
                     <img src="./images/chase_breeze_bio.png" alt="Breeze Technical Services" >
                 </picture>
                 <h3>Chase</h3>
-                <p class = "last" style = "text-align:justify;">Chase will be going into his fourth year of his Bachelor of Science degree, with a specialization in Computing Science. To pay for school, Chase has worked various jobs building, servicing, and programming computers, and has earned his Apple Certified Mac Technician certificate doing so. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. <br><br>In his spare time, Chase enjoys teaching snowboarding, reading, and making sure Bradley doesn’t starve.</p>  
+                <p class = "last" style = "text-align:justify;">
+                  Chase is an Ex-Apple Genius, software engineering student, and custom computer builder. In his previous roles, he’s fixed just about everything, and taught courses for all ages and skill levels. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. 
+                  <br><br>
+                  In his spare time, Chase likes reading, writing apps, and teaching snowboarding. </p>  
 
               </div> 
             </div>
@@ -419,7 +422,8 @@
                 </picture>
                 <h3>Bradley</h3>
                 <p class = "last" style = "text-align:justify;">
-Bradley recently graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. During his time as a student, he paid for school by taking jobs as tech support, a camera salesman, a photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help people from all walks of life truly feel comfortable with their technology. <br><br>In his spare time, Bradley enjoys rock climbing, building robots, and eating all of Chase's food.
+Bradley graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. In his previous roles, he worked as tech support, a photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help and relate with people from all walks of life.
+<br><br>In his spare time, Bradley enjoys programming, rock climbing, and building robots.
 </p>
               </div>
           </div>
