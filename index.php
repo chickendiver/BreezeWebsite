@@ -15,9 +15,9 @@
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="layout.css">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
   <script src="javascript/jqueryFunctions.js"></script>
@@ -238,8 +238,8 @@
   <div class = "band pricing" id = "pricing">
     <div class = "row" style="text-align: center;">
       <h4>Pricing</h4>
-      <h5>Choose an option that suits you best.
-      Travel is always included within Greater Edmonton</h5>
+      <h5>Choose an option that suits you best. <br>
+      <b>Travel is always included within Greater Edmonton</b></h5>
     </div>
 
     <div class = "row" style="margin-left: 40px; margin-right:40px; margin-top:5%; margin-bottom:7%;"> 
@@ -267,10 +267,9 @@
 
         <a href="#" onclick="return false" class="popper" data-popbox="pop1">Info</a> 
         <div id="pop1" class="popbox">
-          <p>Allow 1 hour for standard setups. </p>
-          <p>In extreme cases additional hourly rates may apply</p>
-          <p>Allow 1 hour for standard repairs.</p> 
-          <p>Offsite may apply. Parts extra.</p>
+          <p>Travel included. </p>
+          <p>Additional hourly rates may apply</p>
+          <p>Repairs may require offsite service. Parts extra.</p>
         </div>        
 
       </div>
@@ -293,9 +292,10 @@
 
         <a href="#" onclick="return false" class="popper" data-popbox="pop2">Info</a> 
         <div id="pop2" class="popbox">
+          <p>Travel included. </p>
           <p>Monthly memberships are fully transferable</p>
-          <p>Memberships include one standard repair or setup per month. </p>
-          <p>Parts not included</p>
+          <p>Memberships include one hour-long repair or setup per month. </p>
+          <p>Repairs may require offsite service. Parts extra.</p>
         </div>        
 
       </div>
@@ -317,10 +317,11 @@
 
         <a href="#" onclick="return false" class="popper" data-popbox="pop3">Info</a> 
         <div id="pop3" class="popbox">
+          <p>Travel included. </p>
           <p>Monthly memberships are fully transferable</p>
-          <p>Memberships include one standard repair or setup per month.</p> 
-          <p>Parts not included</p>
-          <p>Phone support is unlimited, and available during standard business hours.</p>
+          <p>Memberships include one hour-long repair or setup per month. </p>
+          <p>Repairs may require offsite service. Parts extra.</p>
+          <p>Phone support is unlimited, and available during regular business hours (9AM - 9PM).</p>
         </div>  
 
       </div>
