@@ -439,6 +439,21 @@ button:hover {
     margin-right:15px;
 }
 
+.band.payment #mobile{
+        display:none;
+    } 
+
+
+@media screen and (max-width: 700px) {
+    .band.payment #mobile{
+        display:block;
+    } 
+    .band.payment #fullsize {
+        display:none;
+    }
+}
+
+
 /* ---------------- 4. User Testimonies ------------------ */
 .band.testimonies{
     background-color: #00BFFF;  

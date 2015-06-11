@@ -335,9 +335,9 @@
 
   <div class = "band payment" id = "payment">
     <div class = "row">
-        <div class = "twelve columns" style = "margin-bottom: 10%">
+        <div class = "twelve columns" id="fullsize" style = "margin-bottom: 10%">
             <picture>
-                <img src = "images/Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
+                <img class="mastercard" src = "images/Payment Images/mastercard_no_bg_200.png" alt="Mastercard">
             </picture>
             <picture>
                 <img src = "images/Payment Images/visa_no_bg_200.png" alt="Visa">
@@ -349,6 +349,22 @@
                 <img src = "images/Payment Images/interac_no_bg_200.png" alt="Interac">
             </picture>
         </div>
+
+        <div class = "twelve columns" id="mobile" style = "margin-bottom: 10%">
+            <picture>
+                <img src = "images/Payment Images/mastercard_no_bg_200 small.png" alt="Mastercard">
+            </picture>
+            <picture>
+                <img src = "images/Payment Images/visa_no_bg_200 small.png" alt="Visa">
+            </picture>
+            <picture>
+                <img src = "images/Payment Images/amex_no_bg_200 small.png" alt="American Express">
+            </picture>
+            <picture>
+                <img src = "images/Payment Images/interac_no_bg_200 small.png" alt="Interac">
+            </picture>
+        </div>
+
       </div>
       
       <div class = "row" style="display:none;">
@@ -361,7 +377,7 @@
       </div>
   </div>
 
-  <div class = "band about" id="about">
+  <div class = "band about" style="display:none;" id="about">
       <div class="container">
         <div class="row">
           <div class= "twelve columns">
