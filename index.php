@@ -377,7 +377,7 @@
       </div>
   </div>
 
-  <div class = "band about" style="display:none;" id="about">
+  <div class = "band about" id="about">
       <div class="container">
         <div class="row">
           <div class= "twelve columns">
