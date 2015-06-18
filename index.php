@@ -238,7 +238,7 @@
   <div class = "band pricing" id = "pricing">
     <div class = "row" style="text-align: center;">
       <h4>Pricing</h4>
-      <h5>Choose an option that suits you best. <br>
+      <h5>Get Help in the Comfort and Conveneience of Your Own Home <br>
       <b>Travel is always included within Greater Edmonton</b></h5>
     </div>
 
@@ -293,6 +293,7 @@
         <a href="#" onclick="return false" class="popper" data-popbox="pop2">Info</a> 
         <div id="pop2" class="popbox">
           <p>Travel included. </p>
+          <p>Lessons are standard 2 hour lessons </p>
           <p>Monthly memberships are fully transferable</p>
           <p>Memberships include one hour-long repair or setup per month. </p>
           <p>Repairs may require offsite service. Parts extra.</p>
@@ -318,6 +319,7 @@
         <a href="#" onclick="return false" class="popper" data-popbox="pop3">Info</a> 
         <div id="pop3" class="popbox">
           <p>Travel included. </p>
+          <p>Lessons are standard 2 hour lessons </p>
           <p>Monthly memberships are fully transferable</p>
           <p>Memberships include one hour-long repair or setup per month. </p>
           <p>Repairs may require offsite service. Parts extra.</p>
@@ -381,7 +383,7 @@
       <div class="container">
         <div class="row">
           <div class= "twelve columns">
-            <h5>Who We Are</h5>
+            <h5>Team Leaders</h5>
           </div>
         </div>
         <div class="row" style = "margin-right:auto; margin-left:auto;">
@@ -392,9 +394,8 @@
                 </picture>
                 <h3>Chase</h3>
                 <p class = "last" style = "text-align:justify;">
-                  Chase is an Ex-Apple Genius, software engineering student, and custom computer builder. In his previous roles, he’s fixed just about everything, and taught courses for all ages and skill levels. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. 
-                  <br><br>
-                  In his spare time, Chase likes reading, writing apps, and teaching snowboarding. </p>  
+                  Chase is an Ex-Apple Genius, computer programmer, and custom computer builder. He’s fixed just about everything, and taught courses for all ages and skill levels. Being just as patient when teaching as he is focused when learning, Chase has brought the wonders of technology into people’s lives for years. 
+                </p>  
 
               </div> 
             </div>
@@ -405,9 +406,8 @@
                 </picture>
                 <h3>Bradley</h3>
                 <p class = "last" style = "text-align:justify;">
-Bradley graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. In his previous roles, he worked as tech support, a photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help and relate with people from all walks of life.
-<br><br>In his spare time, Bradley enjoys programming, rock climbing, and building robots.
-</p>
+                  Bradley graduated from the University of Alberta with a Bachelor of Arts in Psychology and Computing Science. He's worked as tech support, a photographer, and a computer programmer. Bradley’s calm nature and technical proficiency has allowed him to help and relate with people from all walks of life.
+                </p>
               </div>
           </div>
         </div> <!-- End Row -->
