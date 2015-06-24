@@ -242,7 +242,7 @@
       <b>Travel is always included within Greater Edmonton</b></h5>
     </div>
 
-    <div class = "row" style="margin-left: 40px; margin-right:40px; margin-top:5%; margin-bottom:7%;"> 
+    <div class = "row" style="margin-left: 40px; margin-right:40px; margin-top:5%; margin-bottom:3%;"> 
       <div class = "four columns" > 
         <h1 >$90</h1>
         <!--h2 style = "display: inline;">one visit </h2-->
@@ -332,6 +332,9 @@
 
     </div>
 
+
+    <h5 style="text-align: center; margin-bottom: 5%;">Refer a friend for 20% off your next visit <br>
+    or a $10 Amazon gift card! </h5>
 
   </div>
 
