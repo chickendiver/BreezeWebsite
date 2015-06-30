@@ -75,16 +75,16 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns" style = "margin-top:15%;">
-          <h4>Homegrown in Edmonton, Alberta since 2014</h4>
+          <h4>We're more than just tech support.</h4>
         </div>
       </div>
       <div class="row">
-            <div class="twelve columns">
-                <h5>At a time when it is crucial to have a basic understanding of what technology is out there and how to use it, it can be hard to keep up. We provide in-home service, teaching fundamental tech skills, as well as solving more complicated problems. We offer service that is a cut above the rest by putting the customer first, and never compromising on quality.</h5>
+            <div class="twelve columns" style = "margin-bottom:12%;">
+                <h5>Our mission is to empower every person to feel comfortable, and in control of their technology. We offer service that is a cut above the rest by putting the customer first, and never compromising on quality.</h5>
             </div>
       </div>
       <div class="row">
-          <div class="twelve columns" style = "margin-bottom:12%;">
+          <div class="twelve columns" style = "margin-bottom:12%; display:none;">
               <h5>We look forward to seeing you soon.</h5>
           </div>
         </div>
