@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <title>Breeze Technical Services</title>
-  <meta name="author" content="Chase, McCarty, Bradley, Poulette">
   <meta name="description" content="An Edmonton based in home technology service company.">
+  <!--meta name="author" content="Chase, McCarty, Bradley, Poulette"-->
   <meta name="keywords" content="edmonton, computer, help, training, repair, lessons, service, technology">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -333,7 +333,7 @@
     </div>
 
 
-    <h5 style="text-align: center; margin-bottom: 5%;">Refer a friend for 20% off your next visit <br>
+    <h5 style="text-align: center; margin-bottom: 5%;">Successful referrals get 20% off your next visit <br>
     or a $10 Amazon gift card! </h5>
 
   </div>
