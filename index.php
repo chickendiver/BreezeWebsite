@@ -23,6 +23,22 @@
   <script src="javascript/jqueryFunctions.js"></script>
 
 
+  <!-- Facebook Conversion Code for breezepixel -->
+  <script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+  var fbds = document.createElement('script');
+  fbds.async = true;
+  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(fbds, s);
+  _fbq.loaded = true;
+  }
+  })();
+  window._fbq = window._fbq || [];
+  //window._fbq.push(['track', '6028592810836', {'value':'0.01','currency':'CAD'}]);
+  </script>
+  <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6028592810836&amp;cd[value]=0.01&amp;cd[currency]=CAD&amp;noscript=1" /></noscript>
 
 
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -455,7 +471,7 @@
             </ul>
             <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
         
-            <form method="post" action="PHP/process.php">
+            <form method="post" action="php/process.php">
                       <label for="name">Name: <span class="required">*</span></label>
                       <input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required="required" <?php echo($sr && !$cr['form_ok'] ? 'autofocus="autofocus"' : '')?> />
                        
