@@ -21,28 +21,24 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
   <script src="javascript/jqueryFunctions.js"></script>
-
-
-  <!-- Facebook Conversion Code for breezepixel -->
-  <script>(function() {
-  var _fbq = window._fbq || (window._fbq = []);
-  if (!_fbq.loaded) {
-  var fbds = document.createElement('script');
-  fbds.async = true;
-  fbds.src = '//connect.facebook.net/en_US/fbds.js';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(fbds, s);
-  _fbq.loaded = true;
-  }
-  })();
-  window._fbq = window._fbq || [];
-  //window._fbq.push(['track', '6028592810836', {'value':'0.01','currency':'CAD'}]);
-  </script>
-  <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6028592810836&amp;cd[value]=0.01&amp;cd[currency]=CAD&amp;noscript=1" /></noscript>
-
-
+  <script src="javascript/facebook.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- Facebook Conversion Code for breezepixel -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+</script>
+<!--noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6028592810836&amp;cd[value]=0.00&amp;cd[currency]=CAD&amp;noscript=1" /></noscript-->
 </head>
 <body>
     
