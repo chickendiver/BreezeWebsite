@@ -34,20 +34,19 @@
     /* Image source:
     http://wallmeta.com/clouds-images-desktop-wallpaper/
     */
-    background-image: url(../images/landing_image_clouds_2.png);
+    background-image: url(../images/landing_image_gradient.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height:675px;
     width:100%;
+    overflow: auto;
 }
 
 .band.landing .text.container {
-    margin-top: 7%;
-    margin-right: 50%;
-    margin-bottom: 20%;
-    margin-left:22.5%;
+    margin-top: 10%;
+    margin-left: 5%;
     text-align: center;
     width: 550px;
+    float: left;
     
 }
 
@@ -131,8 +130,14 @@
     max-width: none;
 }
 
-.band.landing picture img,
-.band.landing picture source{
+.band.landing picture #heads,
+.band.landing picture #heads{
+    vertical-align: middle;
+    float:right;
+}
+
+.band.landing .nav_stripe picture img,
+.band.landing .nav_stripe picture source{
     margin-top: 25px;
     margin-bottom: 20px;
     vertical-align: middle;
@@ -252,12 +257,25 @@
     background-repeat: repeat;
 }
 
+.band.services .windows{
+    margin-right: 5%;
+}
+
+.band.services .apple{
+    margin-left: 5%;
+}
+
+
+.band.services .logos {
+    margin-bottom: 20%;
+}
+
 .band.services h5{
     color: white;
     text-align: center;
     font-weight: bold;
     margin-top: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .band.services h3{
